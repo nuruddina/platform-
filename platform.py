@@ -1,18 +1,6 @@
 import streamlit as st
+from PIL import Image
+import os
 
-st.title("My Platform")
-st.write("welcome to my platform")
-st.write("dghjj")
-st.sidebar.success("option menu")import pandas as pd
-
-import matplotlib.pyplot as plt
-
-df = pd.DataFrame({
-    "x": [1, 2, 3, 4, 5],
-    "y": [10, 20, 15, 25, 30]
-})
-
-st.write("Sample DataFrame", df)
-
-plt.plot(df["x"], df["y"])
-st.pyplot(plt)
+def home_page():
+    st.sidebar.success("option menu")
