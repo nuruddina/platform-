@@ -9,7 +9,8 @@ def parasite_detail_page():
   st.write("this is page detail")
 
 
-def ai_detector_page
+def ai_detector_page():
+  st.write("this is page ai detector")
 
 st.sidebar.markdown("<div class='sidebar-title'>Platform Navigation</div>", unsafe_allow_html=True)
     
