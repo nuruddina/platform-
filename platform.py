@@ -3,8 +3,8 @@ import streamlit as st
 st.title("My Platform")
 st.write("welcome to my platform")
 st.write("dghjj")
+st.sidebar.success("option menu")import pandas as pd
 
-import pandas as pd
 import matplotlib.pyplot as plt
 
 df = pd.DataFrame({
