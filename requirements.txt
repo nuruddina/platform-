@@ -1,4 +1,5 @@
 pandas
 matplotlib
-PIL
-os
+pillow
+numpy
+opencv-python-headless
