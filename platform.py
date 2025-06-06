@@ -4,3 +4,5 @@ import os
 
 def home_page():
     st.sidebar.success("option menu")
+
+home_page()
