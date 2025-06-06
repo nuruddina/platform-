@@ -8,7 +8,6 @@ def home_page():
 def pinworm_detail_page():
   st.write("this is page detail")
 
-st.sidebar.image(image, use_container_width=True)
 st.sidebar.markdown("<div class='sidebar-title'>Platform Navigation</div>", unsafe_allow_html=True)
     
 pages = {
