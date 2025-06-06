@@ -2,10 +2,10 @@ import streamlit as st
 from PIL import Image
 import os
 
-def home_page()
+def home_page():
   st.write("this is home page")
 
-def pinworm_detail_page()
+def pinworm_detail_page():
   st.write("this is page detail")
 
 st.sidebar.image(image, use_container_width=True)
