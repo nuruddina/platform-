@@ -22,12 +22,13 @@ def parasite_detail_page():
   -[Minute intestinal flukes](#minute-intestinal-flukes)
 """)
   
-  st.title("Ascaris lumbricoides")
-  st.header("Geographical Distribution")
+  
+  st.header("Ascaris lumbricoides")
+  st.title("Geographical Distribution")
   st.write("""
   Ascaris lumbricoides, a common human roundworm, is found globally but is most prevalent in tropical and subtropical regions.
   """)
-  st.title("Hymenolepsis nana")
+
   
   
 
