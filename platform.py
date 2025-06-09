@@ -55,6 +55,18 @@ def parasite_detail_page():
   - **Prevention and Control:** Improved sanitation, clean water, proper hygiene, and mass deworming programs. 
   """)
 
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#hy nana-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  st.header("2.Hymenolepsis nana")
+  st.subheader("Geographical Distribution")
+  st.write("""
+  Hymenolepis nana is the most common cause of all cestode infections, and is encountered worldwide. In temperate areas its incidence is higher in children and institutionalized groups.
+  """)
+  st.subheader("Morphology")
+  
+
+
 
 
 
