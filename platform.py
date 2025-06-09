@@ -37,7 +37,7 @@ def parasite_detail_page():
   - **Unfertilized Eggs:** he unfertilized eggs are laid by uninseminated female. Thes are non-embryonated and cannot become infective.
   """)
   st.subheader("Life cycle")
-  st.write("""
+  st.markdown("""
   1. Adult worms live in the small intestine of people. There, females (the larger worm in the image) may produce approximately 200,000 eggs per day. The eggs are excreted with stool.
   2. In the small intestine, females may produce approximately 200,000 eggs per day. The eggs are excreted with stool (feces). Only fertilized eggs cause infection.
   3. The fertilized eggs develop in the soil. The eggs develop best in moist, warm, shaded soil.
