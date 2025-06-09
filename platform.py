@@ -47,6 +47,23 @@ def parasite_detail_page():
   7. Once inside the lungs, larvae pass into air sacs (alveoli) in the lungs, move up the respiratory tract and into the throat, and are swallowed. When the larvae reach the small intestine, they develop into adult worms.
   """)
   st.image("https://edge.sitecorecloud.io/mmanual-ssq1ci05/media/home/images/a/s/c/ascaris-lumbricoides-lifecycle-lg-cdc-sized.jpg?sc_lang=en&mw=2048")
+  st.subheader("Mode of Tranmission")
+  st.write("Ascaris lumbricoides, the roundworm, is primarily transmitted through the fecal-oral route. ")
+  st.subheader("Route of Infection")  
+  st.write("Ingestion of infective eggs.")
+  
+  
+
+
+
+
+
+
+
+
+
+
+
 
 
 def ai_detector_page():
