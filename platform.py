@@ -8,6 +8,7 @@ def home_page():
   
 
 def parasite_detail_page():
+  
   st.write("this is page detail")
   st.sidebar.title("Table of Content")
   st.sidebar.markdown("""
