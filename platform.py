@@ -109,6 +109,7 @@ def parasite_detail_page():
   - **Laboratory Diagnosis:** Detection of eggs in stool samples.
   - **Treatment:** Praziquantel or niclosamide
   - **Prevention and Control:** Rodent control and proper food handling.
+  """)
   
   
               
