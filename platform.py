@@ -85,12 +85,7 @@ def parasite_detail_page():
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #diminuta-----------------------------------------------------------------------------------------------------------------------------------------------------------
-  st.header("2.Hymenolepis diminuta")
-  st.subheader("Geographical Distribution")
-  st.write("""
-  Hymenolepis diminuta, while less frequent, has been reported from various areas of the world.
-  """)
-              
+
 
    
 
