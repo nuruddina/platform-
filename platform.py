@@ -32,7 +32,8 @@ def parasite_detail_page():
   st.subheader("Morphology")
   st.image('https://upload.wikimedia.org/wikipedia/commons/a/a9/Ascaris_lumbricoides4.jpg')
   st.image('https://laboratorytests.org/wp-content/uploads/2019/03/Fertilized-and-Unfertilized-Eggs-of-Ascaris-Lumbricoides.jpg')
-
+  st.markdown('<h4 style="text-align:center;">Fertilized eggs</h4',unsafe_allow_html=True)
+  st..write("The fertilized eggs are laid by females after inseminated by mating with a male. These are embryonated and develop into the infective eggs.")
  
   
 
