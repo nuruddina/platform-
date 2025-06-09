@@ -22,7 +22,7 @@ def parasite_detail_page():
   - [Minute intestinal flukes](#minute-intestinal-flukes)
 """)
   
-  
+#ascaris-----------------------------------------------------  
   st.header("Ascaris lumbricoides")
   st.subheader("Geographical Distribution")
   st.write("""
@@ -33,19 +33,7 @@ def parasite_detail_page():
   st.markdown('<h4 style="text-align:center;">morphology</h4>',unsafe_allow_html=True)
   st.image('https://laboratorytests.org/wp-content/uploads/2019/03/Fertilized-and-Unfertilized-Eggs-of-Ascaris-Lumbricoides.jpg')
 
-  # row1
-item1,item2 = st.columns(2)
-
-with item1:
-    item1.markdown('<h4 style="text-align:center;">Fertilized eggs</h4',unsafe_allow_html=True)
-    item1.write("The fertilized eggs are laid by females after inseminated by mating with a male. These are embryonated and develop into the infective eggs.")
-
-with item2:
-    item2.markdown('<h4 style="text-align:center;">Unfertilized Eggs</h4',unsafe_allow_html=True)
-    item2.write("The unfertilized eggs are laid by uninseminated female. Thes are non-embryonated and cannot become infective.")
-
-
-  
+ 
   
 
 
