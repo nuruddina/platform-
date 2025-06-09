@@ -81,10 +81,17 @@ def parasite_detail_page():
   - **Laboratory Diagnosis:** Detection of eggs in stool samples; ELISA for antigen detection. 
   - **Treatment:** Praziquantel, albendazole, or mebendazole
   - **Prevention and Control:** Improved sanitation, rodent control, and personal hygiene.
+  """)
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #diminuta-----------------------------------------------------------------------------------------------------------------------------------------------------------
+  st.header("2.Hymenolepis diminuta")
+  st.subheader("Geographical Distribution")
+  st.write("""
+  Hymenolepis diminuta, while less frequent, has been reported from various areas of the world.
+  """)
+              
 
 
    
