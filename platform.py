@@ -86,7 +86,7 @@ def parasite_detail_page():
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #diminuta-----------------------------------------------------------------------------------------------------------------------------------------------------------
-  st.header("3..Hymenolepis diminuta")
+  st.header("3.Hymenolepis diminuta")
   st.subheader("Geographical Distribution")
   st.write("""
   Hymenolepis diminuta, while less frequent, has been reported from various areas of the world.
@@ -114,7 +114,7 @@ def parasite_detail_page():
 #--------------------------------------------------------------------------------------------------------------------------------------------------
 
 #tenia-----------------------------------------------------------------------------------------------------------------------------------------------
-  st.header("4.enia spp.")
+  st.header("4.Tenia spp.")
   st.subheader("Geographical Distribution")
   st.write("""
   Taenia saginata and T. solium are worldwide in distribution. Taenia solium is more prevalent in poorer communities where humans live in close contact with pigs and eat undercooked pork. Taenia asiatica is limited to Asia and is seen mostly in the Republic of Korea, China, Taiwan, Indonesia, and Thailand.
@@ -169,26 +169,86 @@ def parasite_detail_page():
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #Hookworm---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  
-  
-  
+  st.header("6.Hookworm")
+  st.subheader("Geographical Distribution")
+  st.write("""
+  Hookworm species have a worldwide distribution, mostly in areas with moist, warm climates where larvae can survive in the environment. Both Necator americanus and Ancylostoma duodenale are found in Africa, Asia, Australia and the Americas. Only N. americanus is found in south India and predominates in the Americas, while only A. duodenale is found in the Middle East, North Africa, and northern India.
+  """)
+  st.subheader("Morphology")
+  st.image("https://www.cdc.gov/dpdx/hookworm/images/1/Hookworm_2x2_B.jpg?_=02464")
+  st.subheader("Life cycle")
+  st.markdown("""
+  1. Eggs are passed in the stool and hatch into rhabditiform larvae in 1–2 days under moist, warm, shaded conditions.
+  2. Larvae mature into infective filariform (L3) larvae in 5–10 days and can survive 3–4 weeks in the soil.
+  3. Infective larvae penetrate human skin (often via bare feet), enter the bloodstream, and travel to the lungs.
+  4. Larvae migrate up the bronchial tree to the throat, are swallowed, and reach the small intestine.
+  5. Adults reside in the jejunum, attach to the intestinal wall, and feed on host blood.
+  6. Some larvae may become dormant (hypobiosis); A. duodenale can infect via oral or transmammary routes, unlike N. americanus.
+  """)
+  st.image("https://www.cdc.gov/dpdx/hookworm/modules/Hookworm_LifeCycle_19.jpg?_=81699")
+  st.markdown("""
+  - **Mode of Transmission:** Transmitted via skin penetration by infective larvae from contaminated soil.
+  - **Route of Infection:** Larvae enter through skin → lungs → swallowed → mature in small intestine.
+  - **Laboratory Diagnosis:** Stool exam reveals characteristic hookworm eggs under microscope.
+  - **Treatment:** Albendazole or mebendazole is effective; iron supplements for anemia.
+  - **Prevention and Control:** Wear shoes, improve sanitation, and implement deworming programs.
+  """)
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+#Opisthorchis viverrini ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  st.header("7.Opisthorchis viverrini")
+  st.subheader("Geographical Distribution")
+  st.write("""
+  Opisthorchis viverrini is found mainly in northeast Thailand, Laos, Cambodia, and central and southern Vietnam. Opisthorchis felineus is found mainly in Italy, Germany, Belarus, Russia, Kazakhstan, and Ukraine.
+  """)
+  st.subheader("Morphology")
+  st.image("https://www.cdc.gov/dpdx/opisthorchiasis/images/1/O_viverrini_egg_wtmt_BAM3.jpg?_=00772")
+  st.subheader("Life cycle")
+  st.markdown("""
+  1. Fully developed eggs are passed in human or animal feces.
+  2. Eggs are ingested by snails (1st intermediate host), where miracidia hatch and develop into sporocysts, rediae, then cercariae.
+  3. Cercariae are released from the snail and penetrate freshwater fish (2nd intermediate host).
+  4. Inside fish, cercariae encyst as metacercariae in muscles or under the scales.
+  5. Humans or mammals become infected by eating undercooked fish; metacercariae excyst in the duodenum.
+  6. They migrate to bile ducts, mature into adults, and begin egg production after 3–4 weeks.
+  """)
+  st.image("https://www.cdc.gov/dpdx/opisthorchiasis/modules/Opisthorchis_LifeCycle.gif?_=00785")
+  st.markdown("""
+  - **Mode of Transmission:** Ingestion of undercooked or raw infected fish
+  - **Route of Infection:** Ingestion of metacercariae in fish.
+  - **Laboratory Diagnosis:** Detection of eggs in stool samples; serological tests for antibodies.
+  - **Treatment:**  Praziquantel , albendazole.
+  - **Prevention and Control:** Avoid eating raw or undercooked freshwater fish ,Cook fish thoroughly to kill metacercariae ,Mass deworming programs – in high-risk communities to reduce transmission.
+  """)
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-
-
-  
-  
-              
-
-
-   
-
-
-
-
-
-
+#Minute------------------------------------------------------------------------------------------------------------------------------------------------------------
+  st.header("8.Minute intestinal fluke ")
+  st.subheader("Geographical Distribution")
+  st.write("""
+  Egypt, the Middle East, and Far East.
+  """)
+  st.subheader("Morphology")
+  st.image("https://www.troccap.com/wp-content/uploads/2018/09/intestinal-fluke-fig1.jpg")
+  st.subheader("Life cycle")
+  st.markdown("""
+  1. Embryonated eggs are passed in feces and contain fully developed miracidia.
+  2. Snails (e.g., Cerithidia, Pironella) ingest eggs, and miracidia hatch and develop into sporocysts, rediae, and cercariae.
+  3. Cercariae exit the snail and encyst as metacercariae in freshwater or brackish fish.
+  4. Humans or animals become infected by eating undercooked or salted fish containing metacercariae.
+  5. Metacercariae excyst in the small intestine, attach to the mucosa, and mature into adults.
+  6. Definitive hosts include humans, cats, dogs, and fish-eating birds.
+  """)
+  st.image("https://www.cdc.gov/dpdx/heterophyiasis/modules/Heterophyes_LifeCycle.gif?_=01559")
+  st.markdown("""
+  - **Mode of Transmission:** Transmitted by ingestion of metacercariae in raw or undercooked freshwater fish.
+  - **Route of Infection:** After ingestion, metacercariae excyst in the small intestine and attach to the mucosa.
+  - **Laboratory Diagnosis:** Detection of small, operculated eggs in stool via microscopy.
+  - **Treatment:** Praziquantel 75 mg/kg/day in 3 divided doses for 1 day.
+  - **Prevention and Control:** Avoid eating raw fish, ensure proper cooking, and improve sanitation.
+  """)
+#-----------------------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------------------
 
 def ai_detector_page():
   st.write("this is page ai detector")
