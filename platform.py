@@ -86,7 +86,7 @@ def parasite_detail_page():
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #diminuta-----------------------------------------------------------------------------------------------------------------------------------------------------------
-  st.header("2.Hymenolepis diminuta")
+  st.header("3..Hymenolepis diminuta")
   st.subheader("Geographical Distribution")
   st.write("""
   Hymenolepis diminuta, while less frequent, has been reported from various areas of the world.
@@ -114,7 +114,7 @@ def parasite_detail_page():
 #--------------------------------------------------------------------------------------------------------------------------------------------------
 
 #tenia-----------------------------------------------------------------------------------------------------------------------------------------------
-  st.header("Tenia spp.")
+  st.header("4.enia spp.")
   st.subheader("Geographical Distribution")
   st.write("""
   Taenia saginata and T. solium are worldwide in distribution. Taenia solium is more prevalent in poorer communities where humans live in close contact with pigs and eat undercooked pork. Taenia asiatica is limited to Asia and is seen mostly in the Republic of Korea, China, Taiwan, Indonesia, and Thailand.
@@ -142,7 +142,7 @@ def parasite_detail_page():
 #---------------------------------------------------------------------------------------------------------------------------------------------
 
 #Trichuris trichiura---------------------------------------------------------------------------------------------------------------------------------------------------------
-  st.header("Trichuris trichiura")
+  st.header("5.Trichuris trichiura")
   st.subheader("Geographical Distribution")
   st.write("""
   The third most common round worm of humans. Worldwide, with infections more frequent in areas with tropical weather and poor sanitation practices, and among children. It is estimated that 800 million people are infected worldwide. Trichuriasis occurs in the southern United States.
