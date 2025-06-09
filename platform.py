@@ -21,8 +21,9 @@ def parasite_detail_page():
   - [Opisthorchis viverrini](#opisthorchis-viverrini)
   - [Minute intestinal flukes](#minute-intestinal-flukes)
 """)
+#----------------------------------------------------------------------------------------------------------------------------------------
   
-#ascaris-----------------------------------------------------  
+#ascaris---------------------------------------------------------------------------------------------------------------------------------
   st.header("Ascaris lumbricoides")
   st.subheader("Geographical Distribution")
   st.write("""
@@ -30,7 +31,6 @@ def parasite_detail_page():
   """)
   st.subheader("Morphology")
   st.image('https://upload.wikimedia.org/wikipedia/commons/a/a9/Ascaris_lumbricoides4.jpg')
-  st.markdown('<h4 style="text-align:center;">morphology</h4>',unsafe_allow_html=True)
   st.image('https://laboratorytests.org/wp-content/uploads/2019/03/Fertilized-and-Unfertilized-Eggs-of-Ascaris-Lumbricoides.jpg')
 
  
