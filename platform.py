@@ -12,14 +12,14 @@ def parasite_detail_page():
   st.write("this is page detail")
   st.sidebar.title("Table of Content")
   st.sidebar.markdown("""
-  -[Ascaris lumbricoides](#ascaris-lumbricoides)
-  -[Hymenolepsis nana](#hymenolepsis-nana)
-  -[Hymenolepsis diminuta](#hymenolepsis-diminuta)
-  -[Tenia spp.](#tenia-spp.)
-  -[Trichuris trichiura](#trichuris-trichiura)
-  -[Hookworm](#hookworm)
-  -[Opisthorchis viverrini](#opisthorchis-viverrini)
-  -[Minute intestinal flukes](#minute-intestinal-flukes)
+  - [Ascaris lumbricoides](#ascaris-lumbricoides)
+  - Hymenolepsis nana](#hymenolepsis-nana)
+  - [Hymenolepsis diminuta](#hymenolepsis-diminuta)
+  - [Tenia spp.](#tenia-spp.)
+  - [Trichuris trichiura](#trichuris-trichiura)
+  - [Hookworm](#hookworm)
+  - [Opisthorchis viverrini](#opisthorchis-viverrini)
+  - [Minute intestinal flukes](#minute-intestinal-flukes)
 """)
   
   
