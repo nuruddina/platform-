@@ -24,7 +24,7 @@ def parasite_detail_page():
 #----------------------------------------------------------------------------------------------------------------------------------------
   
 #ascaris---------------------------------------------------------------------------------------------------------------------------------
-  st.header("Ascaris lumbricoides")
+  st.header("1.Ascaris lumbricoides")
   st.subheader("Geographical Distribution")
   st.write("""
   Ascaris lumbricoides, a common human roundworm, is found globally but is most prevalent in tropical and subtropical regions.
