@@ -110,6 +110,73 @@ def parasite_detail_page():
   - **Treatment:** Praziquantel or niclosamide
   - **Prevention and Control:** Rodent control and proper food handling.
   """)
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------
+
+#tenia-----------------------------------------------------------------------------------------------------------------------------------------------
+  st.header("Tenia spp.")
+  st.subheader("Geographical Distribution")
+  st.write("""
+  Taenia saginata and T. solium are worldwide in distribution. Taenia solium is more prevalent in poorer communities where humans live in close contact with pigs and eat undercooked pork. Taenia asiatica is limited to Asia and is seen mostly in the Republic of Korea, China, Taiwan, Indonesia, and Thailand.
+  """)
+  st.subheader("Morphology")
+  st.image("https://www.cdc.gov/dpdx/taeniasis/images/1/Taenia_egg.jpg?_=96649")
+  st.subheader("Life cycle")
+  st.markdown("""
+  1. Eggs or gravid proglottids are passed in human feces ,These can survive in the environment for days to months.
+  2. Cattle or pigs ingest eggs or proglottids from contaminated vegetation,T. saginata infects cattle; T. solium and T. asiatica infect pigs.
+  3. Oncospheres hatch in the animal’s intestine and migrate to striated muscles ,They develop into cysticerci, which can survive in tissue for years.
+  4. Humans become infected by eating raw or undercooked infected meat ,Ingested cysticerci mature into adult tapeworms in the human intestine.
+  5. Adult tapeworms attach to the small intestine via the scolex ,Development into a fully mature worm takes around 2 months.
+  6. Gravid proglottids are passed in feces, releasing thousands of eggs ,T. saginata may produce up to 100,000 eggs per proglottid, T. solium about 50,000.
+  """)
+  st.image("https://www.cdc.gov/dpdx/taeniasis/modules/Taenia_LifeCycle.gif?_=96656")
+  st.markdown("""
+  - **Mode of Transmission:** Ingestion of undercooked or raw infected meat.
+  - **Route of Infection:** Ingestion of cysticerci in meat.
+  - **Laboratory Diagnosis:** Detection of eggs or proglottids in stool samples; identification of scolex morphology.
+  - **Treatment:** Praziquantel or niclosamide. 
+  - **Prevention and Control:** Proper cooking of meat, sanitation, and meat inspection.
+  """)
+
+#---------------------------------------------------------------------------------------------------------------------------------------------
+
+#Trichuris trichiura---------------------------------------------------------------------------------------------------------------------------------------------------------
+  st.header("Trichuris trichiura")
+  st.subheader("Geographical Distribution")
+  st.write("""
+  The third most common round worm of humans. Worldwide, with infections more frequent in areas with tropical weather and poor sanitation practices, and among children. It is estimated that 800 million people are infected worldwide. Trichuriasis occurs in the southern United States.
+  """)
+  st.subheader("Morphology")
+  st.image("https://www.cdc.gov/dpdx/trichuriasis/images/1/Trichuris_trichiura_egg1.jpg?_=01207")
+  st.subheader("Life cycle")
+  st.markdown("""
+  1. Unembryonated eggs are passed in the stool ,Eggs are released by adult females in the large intestine and excreted in feces.
+  2. Eggs develop in soil through multiple stages to become infective ,They pass through a 2-cell stage, advanced cleavage, and embryonate in 15–30 days.
+  3. Humans become infected by ingesting embryonated eggs ,Via contaminated hands, food, or soil.
+  4. Eggs hatch in the small intestine, releasing larvae ,Larvae migrate to the large intestine.
+  5. Larvae mature into adult worms in the cecum and colon ,Adults thread their anterior ends into the mucosa and remain fixed.
+  6. Females begin egg production 60–70 days post-infection ,They lay 3,000–20,000 eggs per day; adult worms can live up to 1 year.
+  """)
+  st.image("https://www.cdc.gov/dpdx/trichuriasis/modules/Trichuris_LifeCycle.gif?_=01176")
+  st.markdown("""
+  - **Mode of Transmission:** Fecal-oral route via ingestion of embryonated eggs from contaminated food or water.
+  - **Route of Infection:** Ingestion of infective eggs.
+  - **Laboratory Diagnosis:** Detection of characteristic lemon-shaped eggs in stool samples.
+  - **Treatment:** Mebendazole, albendazole, or ivermectin.
+  - **Prevention and Control:** Improved sanitation, clean water, proper hygiene, and mass deworming programs.
+  """)
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#Hookworm---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+  
+  
+
+
+
+
+
   
   
               
