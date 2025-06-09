@@ -91,6 +91,26 @@ def parasite_detail_page():
   st.write("""
   Hymenolepis diminuta, while less frequent, has been reported from various areas of the world.
   """)
+  st.subheader("Morphology")
+  st.image("http://www.medical-labs.net/wp-content/uploads/2014/06/H.diminuta-OVA.jpg")
+  st.subheader("Life cycle")
+  st.markdown("""
+  1. ggs are passed in the feces of infected rodents or humans Gravid proglottids disintegrate in the intestine, releasing eggs that are excreted in feces.
+  2. Eggs are ingested by arthropod intermediate hosts (e.g., beetles, fleas) ,Common hosts include Tribolium species (flour beetles).
+  3. Oncospheres hatch and penetrate the intestinal wall of the arthropod ,They develop into cysticercoid larvae inside the insect's body.
+  4. Humans or rodents become infected by ingesting infected arthropods,Often through contaminated food (e.g., cereals) or environmental exposure.
+  5. Cysticercoid larvae are released in the stomach and evert their scolex,The scolex attaches to the intestinal wall using suckers.
+  6. Adult worms mature in about 20 days and produce eggs,Adults can grow up to 30 cm; eggs are again released in feces, continuing the cycle.
+  """)
+  st.image("https://www.cdc.gov/dpdx/hymenolepiasis/modules/H_diminuta_LifeCycle.gif?_=01676")
+  st.markdown("""
+  - **Mode of Transmission:** Ingestion of infected intermediate hosts.
+  - **Route of Infection:** Ingestion of infected arthropods.
+  - **Laboratory Diagnosis:** Detection of eggs in stool samples.
+  - **Treatment:** Praziquantel or niclosamide
+  - **Prevention and Control:** Rodent control and proper food handling.
+  
+  
               
 
 
