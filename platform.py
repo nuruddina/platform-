@@ -14,7 +14,7 @@ def parasite_detail_page():
   st.sidebar.markdown("""
   -[Ascaris lumbricoides](#ascaris-lumbricoides)
   -[Hymenolepsis nana](#hymenolepsis-nana)
-  -[Hymenolepsis diminuta}(#hymenolepsis-diminuta)
+  -[Hymenolepsis diminuta](#hymenolepsis-diminuta)
   -[Tenia spp.](#tenia-spp.)
   -[Trichuris trichiura](#trichuris-trichiura)
   -[Hookworm](#hookworm)
