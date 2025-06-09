@@ -57,8 +57,8 @@ def parasite_detail_page():
 
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#Hymenolepsis-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  st.header("2.Hymenolepsis nana")
+#Hymenolepsis nana-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  st.header("2.Hymenolepis nana")
   st.subheader("Geographical Distribution")
   st.write("""
   Hymenolepis nana is the most common cause of all cestode infections, and is encountered worldwide. In temperate areas its incidence is higher in children and institutionalized groups.
@@ -75,6 +75,23 @@ def parasite_detail_page():
   6. Autoinfection allows the parasite to persist for years,Eggs hatch internally, restarting the cycle without leaving the body.
   """)
   st.image("https://www.cdc.gov/dpdx/hymenolepiasis/modules/H_nana_LifeCycle.gif?_=01675")
+  st.markdown("""
+  - **Mode of Transmission:** Ingestion of infective eggs from contaminated food or water.
+  - **Route of Infection:** Fecal-oral route.
+  - **Laboratory Diagnosis:** Detection of eggs in stool samples; ELISA for antigen detection. 
+  - **Treatment:** Praziquantel, albendazole, or mebendazole
+  - **Prevention and Control:** Improved sanitation, rodent control, and personal hygiene.
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#diminuta-----------------------------------------------------------------------------------------------------------------------------------------------------------
+  st.header("2.Hymenolepis diminuta")
+  st.subheader("Geographical Distribution")
+  st.write("""
+  Hymenolepis diminuta, while less frequent, has been reported from various areas of the world.
+  """)
+              
+
    
 
 
