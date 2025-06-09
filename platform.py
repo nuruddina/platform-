@@ -74,6 +74,7 @@ def parasite_detail_page():
   5. Adults release eggs through gravid proglottids ,Eggs are excreted or may cause autoinfection inside the same host.
   6. Autoinfection allows the parasite to persist for years,Eggs hatch internally, restarting the cycle without leaving the body.
   """)
+  st.image("https://www.cdc.gov/dpdx/hymenolepiasis/modules/H_nana_LifeCycle.gif?_=01675")
    
 
 
