@@ -21,6 +21,16 @@ def parasite_detail_page():
   -[Opisthorchis viverrini](#opisthorchis-viverrini)
   -[Minute intestinal flukes](#minute-intestinal-flukes)
 """)
+  
+  st.title("Ascaris lumbricoides")
+  st.header("Geographical Distribution")
+  st.write("""
+  Ascaris lumbricoides, a common human roundworm, is found globally but is most prevalent in tropical and subtropical regions.
+  """)
+  
+  
+
+
  
 
 
