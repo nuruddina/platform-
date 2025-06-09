@@ -4,6 +4,8 @@ import os
 
 def home_page():
   st.write("this is home page")
+  st.title("Platform for parasited detection")
+  
 
 def parasite_detail_page():
   st.write("this is page detail")
