@@ -4,7 +4,7 @@ import os
 
 def home_page():
   st.write("this is home page")
-  st.title("Platform for parasited detection")
+  st.markdown('<h2 style="text-align:center;">Platform for parasitic egg detection</h2>',unsafe_allow_html=True)
   
 
 def parasite_detail_page():
