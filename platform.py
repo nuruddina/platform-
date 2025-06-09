@@ -48,11 +48,11 @@ def parasite_detail_page():
   """)
   st.image("https://edge.sitecorecloud.io/mmanual-ssq1ci05/media/home/images/a/s/c/ascaris-lumbricoides-lifecycle-lg-cdc-sized.jpg?sc_lang=en&mw=2048")
   st.markdown("""
-  - **Mode of Transmission: Ingestion of infective eggs from contaminated food or water. 
-  - **Route of Infection: Ingestion of infective eggs.
-  - **Laboratory Diagnosis: Detection of characteristic eggs in stool samples. 
-  - **Treatment: Albendazole, mebendazole, or ivermectin.
-  - **Prevention and Control: Improved sanitation, clean water, proper hygiene, and mass deworming programs. 
+  - **Mode of Transmission:** Ingestion of infective eggs from contaminated food or water. 
+  - **Route of Infection:** Ingestion of infective eggs.
+  - **Laboratory Diagnosis:** Detection of characteristic eggs in stool samples. 
+  - **Treatment:** Albendazole, mebendazole, or ivermectin.
+  - **Prevention and Control:** Improved sanitation, clean water, proper hygiene, and mass deworming programs. 
   """)
 
 
