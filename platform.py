@@ -252,7 +252,6 @@ def parasite_detail_page():
 
 
 
-
 def ai_detector_page():
   st.write("this is page ai detector")
 
