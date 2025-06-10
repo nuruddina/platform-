@@ -260,69 +260,6 @@ def quiz_page():
   st.write("this is page quiz")
 
 
-def run_quiz():
-    """
-    ฟังก์ชันสำหรับดำเนินเกมตอบคำถามไข่พยาธิ
-    (Function to run the parasite egg quiz)
-    """
-    questions = [
-        {
-            "prompt": "Which parasite egg is typically identified by its thick shell, oval shape, golden-brown color, and often a mamillated outer layer, measuring approximately 45-75 micrometers?",
-            "options": ["Hymenolepsis nana", "Ascaris lumbricoides", "Tenia spp.", "Hookworm"],
-            "answer": "Ascaris lumbricoides"
-        },
-        {
-            "prompt": "Which parasite egg is distinctive for having polar plugs at both ends, a barrel shape, a thick, yellowish-brown shell, and dimensions around 50-54 x 22-23 micrometers?",
-            "options": ["Trichuris trichiura", "Opisthorchis viverrini", "Hymenolepsis diminuta", "Ascaris lumbricoides"],
-            "answer": "Trichuris trichiura"
-        },
-        {
-            "prompt": "Often found with a developing larva inside when passed in feces, which parasite egg is characterized by its oval or elliptical shape, thin and transparent shell, and a clear space between the larva and the inner shell, measuring about 40-60 micrometers?",
-            "options": ["Hookworm", "Hymenolepsis nana", "Tenia spp.", "Trichuris trichiura"],
-            "answer": "Hookworm"
-        },
-        {
-            "prompt": "This small, operculated egg, resembling a pear or Chinese melon seed, measures approximately 27-30 x 15-17 micrometers and belongs to which parasite?",
-            "options": ["Ascaris lumbricoides", "Opisthorchis viverrini", "Hymenolepsis diminuta", "Minute intestinal flukes"],
-            "answer": "Opisthorchis viverrini"
-        },
-        {
-            "prompt": "As the smallest tapeworm egg (approx. 30-47 micrometers), it is oval or nearly round with a thin, transparent shell, contains a hexacanth embryo, and is notable for its characteristic polar filaments (4-8) at its poles. Which parasite produces this egg?",
-            "options": ["Tenia spp.", "Hymenolepsis diminuta", "Hymenolepsis nana", "Hookworm"],
-            "answer": "Hymenolepsis nana"
-        },
-        {
-            "prompt": "The primary mode of human infection with *Ascaris lumbricoides* is typically through:",
-            "options": ["Ingestion of embryonated eggs in contaminated food/water", "Skin penetration by larvae", "Ingestion of undercooked meat", "Insect bites"],
-            "answer": "Ingestion of embryonated eggs in contaminated food/water"
-        },
-        {
-            "prompt": "The infective larvae of hookworms usually penetrate the human host via which route?",
-            "options": ["Oral ingestion", "Skin penetration", "Inhalation", "Transplacental"],
-            "answer": "Skin penetration"
-        },
-        {
-            "prompt": "Consumption of raw or undercooked infected pork or beef is the main mode of transmission for which parasite?",
-            "options": ["Trichuris trichiura", "Tenia spp.", "Opisthorchis viverrini", "Hymenolepsis diminuta"],
-            "answer": "Tenia spp."
-        },
-        {
-            "prompt": "Which parasite egg, when found in stool, is typically very small (20-30 x 12-17 micrometers), operculated, and often lacks prominent shoulders, with infection commonly linked to eating raw freshwater fish?",
-            "options": ["Opisthorchis viverrini", "Ascaris lumbricoides", "Minute intestinal flukes", "Hymenolepsis nana"],
-            "answer": "Minute intestinal flukes"
-        },
-        {
-            "prompt": "*Hymenolepsis diminuta* differs from *Hymenolepsis nana* by requiring an intermediate host (like fleas or beetles). How do humans typically acquire *Hymenolepsis diminuta* infection?",
-            "options": ["Direct ingestion of eggs", "Ingestion of infected intermediate host", "Skin penetration by larvae", "Contaminated water"],
-            "answer": "Ingestion of infected intermediate host"
-        }
-    ]
-
-
-# เรียกใช้ฟังก์ชันเพื่อเริ่มเกม
-# (Call the function to start the quiz)
-if __name__ == "__main__":
-    run_quiz()
 
 
 st.sidebar.markdown("<div class='sidebar-title'>Platform Navigation</div>", unsafe_allow_html=True)
