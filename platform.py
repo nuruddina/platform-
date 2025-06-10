@@ -258,7 +258,7 @@ def ai_detector_page():
 
 def quiz_page():
   st.write("this is page quiz")
-import random
+
 
 def run_quiz():
     """
@@ -318,45 +318,6 @@ def run_quiz():
         }
     ]
 
-    # สับเปลี่ยนลำดับคำถาม
-    # (Shuffle the order of questions)
-    random.shuffle(questions)
-
-    score = 0
-    total_questions = len(questions)
-
-    print("--- ยินดีต้อนรับสู่เกมตอบคำถามไข่พยาธิ! (Welcome to the Parasite Egg Quiz!) ---")
-    print("กรุณาเลือกคำตอบที่ถูกต้องจากตัวเลือกที่กำหนด\n(Please select the correct answer from the given options)\n")
-
-    for i, q in enumerate(questions):
-        print(f"คำถามที่ {i + 1}: {q['prompt']}") # Question {i+1}: {q['prompt']}
-        # สับเปลี่ยนลำดับตัวเลือกเพื่อไม่ให้คำตอบถูกเรียงเหมือนเดิมทุกครั้ง
-        # (Shuffle the order of options to prevent answers from being in the same order every time)
-        options_shuffled = random.sample(q['options'], len(q['options']))
-        for j, option in enumerate(options_shuffled):
-            print(f"  {j + 1}. {option}")
-
-        while True:
-            try:
-                user_choice_index = int(input("เลือกหมายเลขคำตอบของคุณ: ")) - 1 # Enter your answer number:
-                if 0 <= user_choice_index < len(options_shuffled):
-                    break
-                else:
-                    print("กรุณาใส่หมายเลขให้ถูกต้อง (Please enter a valid number)")
-            except ValueError:
-                print("กรุณาใส่ตัวเลข (Please enter a number)")
-
-        user_answer = options_shuffled[user_choice_index]
-
-        if user_answer == q["answer"]:
-            print("ถูกต้อง! 🎉\n") # Correct! 🎉
-            score += 1
-        else:
-            print(f"ผิดพลาด! คำตอบที่ถูกต้องคือ: {q['answer']} ❌\n") # Incorrect! The correct answer is: {q['answer']} ❌
-
-    print("--- จบเกม (End of Quiz) ---")
-    print(f"คุณตอบถูก {score} ข้อ จากทั้งหมด {total_questions} ข้อ") # You answered {score} out of {total_questions} questions correctly.
-    print(f"คะแนนของคุณ: {score}/{total_questions}\n") # Your score: {score}/{total_questions}
 
 # เรียกใช้ฟังก์ชันเพื่อเริ่มเกม
 # (Call the function to start the quiz)
