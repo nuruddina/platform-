@@ -258,6 +258,8 @@ def ai_detector_page():
 def quiz_page():
   st.write("this is page quiz")
 
+import random
+
 def run_quiz():
     """
     ฟังก์ชันสำหรับดำเนินเกมตอบคำถามไข่พยาธิ
@@ -269,7 +271,6 @@ def run_quiz():
             "options": ["Hymenolepsis nana", "Ascaris lumbricoides", "Tenia spp.", "Hookworm"],
             "answer": "Ascaris lumbricoides"
         },
-
 
 
 
