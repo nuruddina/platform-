@@ -338,6 +338,88 @@ def quiz_page():
 
     # Final score
     st.markdown(f"## Your final score: {score} / {len(selected_questions)}")
+  import streamlit as st
+import random
+
+# List of quiz questions
+quiz_questions = [
+    {
+        "question": "Which parasite egg has a characteristic barrel shape with bipolar plugs?",
+        "options": ["Ascaris lumbricoides", "Trichuris trichiura", "Hookworm", "Tenia spp."],
+        "answer": "Trichuris trichiura"
+    },
+    {
+        "question": "Which parasite is transmitted by ingestion of undercooked freshwater fish?",
+        "options": ["Hymenolepis nana", "Opisthorchis viverrini", "Hookworm", "Minute intestinal flukes"],
+        "answer": "Opisthorchis viverrini"
+    },
+    {
+        "question": "Which parasite’s egg has a thick mammillated shell?",
+        "options": ["Ascaris lumbricoides", "Hookworm", "Tenia spp.", "Trichuris trichiura"],
+        "answer": "Ascaris lumbricoides"
+    },
+    {
+        "question": "Minute intestinal flukes are typically transmitted via which route?",
+        "options": ["Skin penetration", "Ingestion of metacercaria in fish", "Fecal-oral", "Vector bite"],
+        "answer": "Ingestion of metacercaria in fish"
+    },
+    {
+        "question": "Which parasite can auto-infect the host?",
+        "options": ["Hymenolepis nana", "Ascaris lumbricoides", "Tenia spp.", "Hookworm"],
+        "answer": "Hymenolepis nana"
+    },
+    {
+        "question": "Which parasite has an operculated egg visible under the microscope?",
+        "options": ["Hookworm", "Opisthorchis viverrini", "Ascaris lumbricoides", "Trichuris trichiura"],
+        "answer": "Opisthorchis viverrini"
+    },
+    {
+        "question": "Which of these parasites infects humans through skin penetration?",
+        "options": ["Hookworm", "Trichuris trichiura", "Tenia spp.", "Minute intestinal flukes"],
+        "answer": "Hookworm"
+    },
+    {
+        "question": "Which parasite is transmitted by ingestion of contaminated cereal or insects?",
+        "options": ["Hymenolepis diminuta", "Tenia spp.", "Ascaris lumbricoides", "Hookworm"],
+        "answer": "Hymenolepis diminuta"
+    },
+    {
+        "question": "Tenia spp. eggs are typically transmitted through what source?",
+        "options": ["Contaminated vegetables", "Infected pork or beef", "Skin penetration", "Drinking water"],
+        "answer": "Infected pork or beef"
+    },
+    {
+        "question": "Which egg is oval with a thin shell and visible larva inside?",
+        "options": ["Hymenolepis nana", "Ascaris lumbricoides", "Hookworm", "Tenia spp."],
+        "answer": "Hookworm"
+    }
+]
+
+def quiz_page():
+    st.title("Parasite Egg Morphology and Transmission Quiz 🦠")
+    st.write("Answer the following questions about various parasitic eggs and their characteristics.")
+
+    # Randomize question order (optional)
+    selected_questions = random.sample(quiz_questions, len(quiz_questions))
+
+    # Store user's score
+    score = 0
+
+    # Display each question
+    for idx, q in enumerate(selected_questions):
+        st.markdown(f"**Q{idx+1}: {q['question']}**")
+        user_answer = st.radio("Choose one:", q["options"], key=idx)
+        if user_answer == q["answer"]:
+            st.success("✅ Correct!")
+            score += 1
+        else:
+            st.error(f"❌ Incorrect. Correct answer: {q['answer']}")
+        st.write("---")
+
+    # Final score
+    st.markdown(f"## Your final score: {score} / {len(selected_questions)}")
+
+
 
 
       
