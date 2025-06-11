@@ -395,29 +395,6 @@ quiz_questions = [
     }
 ]
 
-def quiz_page():
-    st.title("Parasite Egg Morphology and Transmission Quiz 🦠")
-    st.write("Answer the following questions about various parasitic eggs and their characteristics.")
-
-    # Randomize question order (optional)
-    selected_questions = random.sample(quiz_questions, len(quiz_questions))
-
-    # Store user's score
-    score = 0
-
-    # Display each question
-    for idx, q in enumerate(selected_questions):
-        st.markdown(f"**Q{idx+1}: {q['question']}**")
-        user_answer = st.radio("Choose one:", q["options"], key=idx)
-        if user_answer == q["answer"]:
-            st.success("✅ Correct!")
-            score += 1
-        else:
-            st.error(f"❌ Incorrect. Correct answer: {q['answer']}")
-        st.write("---")
-
-    # Final score
-    st.markdown(f"## Your final score: {score} / {len(selected_questions)}")
 
 
 
