@@ -258,6 +258,18 @@ def ai_detector_page():
 def quiz_page():
   st.write("this is page quiz")
 
+def run_quiz():
+    """
+    ฟังก์ชันสำหรับดำเนินเกมตอบคำถามไข่พยาธิ
+    (Function to run the parasite egg quiz)
+    """
+    questions = [
+        {
+            "prompt": "Which parasite egg is typically identified by its thick shell, oval shape, golden-brown color, and often a mamillated outer layer, measuring approximately 45-75 micrometers?",
+            "options": ["Hymenolepsis nana", "Ascaris lumbricoides", "Tenia spp.", "Hookworm"],
+            "answer": "Ascaris lumbricoides"
+        },
+
 
 
 
