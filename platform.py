@@ -271,7 +271,7 @@ def run_quiz():
             "options": ["Hymenolepsis nana", "Ascaris lumbricoides", "Tenia spp.", "Hookworm"],
             "answer": "Ascaris lumbricoides"
         },
-    ]
+]
 
 
       
