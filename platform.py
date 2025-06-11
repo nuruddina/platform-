@@ -338,7 +338,7 @@ def quiz_page():
 
     # Final score
     st.markdown(f"## Your final score: {score} / {len(selected_questions)}")
-  import streamlit as st
+
 import random
 
 # List of quiz questions
