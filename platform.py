@@ -359,20 +359,21 @@ quiz_questions = [
     }
 ]
 
+
+
 def quiz_page():
     st.title("Parasite Egg Morphology and Transmission Quiz 🦠")
     st.write("Answer the following questions about various parasitic eggs and their characteristics.")
 
-    # Randomize question order (optional)
-    selected_questions = random.sample(quiz_questions, len(quiz_questions))
+    # เก็บลำดับคำถามไว้ใน session_state
+    if "question_order" not in st.session_state:
+        st.session_state.question_order = random.sample(quiz_questions, len(quiz_questions))
 
-    # Store user's score
     score = 0
 
-    # Display each question
-    for idx, q in enumerate(selected_questions):
+    for idx, q in enumerate(st.session_state.question_order):
         st.markdown(f"**Q{idx+1}: {q['question']}**")
-        user_answer = st.radio("Choose one:", q["options"], key=idx)
+        user_answer = st.radio("Choose one:", q["options"], key=f"q_{idx}")
         if user_answer == q["answer"]:
             st.success("✅ Correct!")
             score += 1
@@ -380,10 +381,14 @@ def quiz_page():
             st.error(f"❌ Incorrect. Correct answer: {q['answer']}")
         st.write("---")
 
-    # Final score
-    st.markdown(f"## Your final score: {score} / {len(selected_questions)}")
+    st.markdown(f"## Your final score: {score} / {len(st.session_state.question_order)}")
 
-
+    # ปุ่ม reset เพื่อเริ่มใหม่
+    if st.button("🔁 Restart Quiz"):
+        del st.session_state.question_order
+        for idx in range(len(quiz_questions)):
+            st.session_state.pop(f"q_{idx}", None)
+        st.experimental_rerun()
 
 
 
