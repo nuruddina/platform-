@@ -6,28 +6,28 @@ def home_page():
   st.write("this is home page")
   st.markdown('<h2 style="text-align:center;">Platform for parasitic egg detection</h2>',unsafe_allow_html=True)
 def home_page():
-    st.title("🧫 Parasite Egg Identification & Quiz Platform")
+    st.title(" Parasite Egg Identification & Quiz Platform")
     
     st.image("https://example.com/parasite_eggs_banner.jpg", use_column_width=True)  # Optional banner image
 
     st.markdown("""
-    ## 🎯 Purpose
+    ##  Purpose
     This web application is designed to assist students, medical technologists, and professionals 
     in the identification and understanding of **parasitic eggs** through visual references, 
     morphological features, and interactive quizzes.
 
-    ## 📚 What You’ll Learn
+    ##  What You’ll Learn
     - Morphological characteristics of different parasite eggs
     - Routes and modes of transmission
     - Key differences between similar parasites
     - Diagnostic features and clinical relevance
 
-    ## 🧩 Features
+    ##  Features
     - 🔍 **Egg Reference Gallery** – High-quality images and descriptions of parasite eggs
     - 📝 **Interactive Quiz** – Test your knowledge with multiple-choice questions
     - 📖 **Learning Resources** – Educational material and transmission life cycles
 
-    ## 🧪 Target Parasites Covered
+    ## Target Parasites Covered
     - *Ascaris lumbricoides*
     - *Hymenolepis nana*
     - *Hymenolepis diminuta*
@@ -38,7 +38,7 @@ def home_page():
     - *Minute intestinal flukes*
     - ... and more
 
-    ## 🚀 How to Use
+    ## How to Use
     1. Navigate through the sidebar menu to access pages.
     2. Review reference materials or start the quiz.
     3. Check your score and review correct answers.
