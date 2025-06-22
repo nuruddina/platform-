@@ -83,13 +83,9 @@ def parasite_detail_page():
   """)
   st.subheader("Life cycle")
   st.markdown("""
-  1. Adult worms live in the small intestine of people. There, females (the larger worm in the image) may produce approximately 200,000 eggs per day. The eggs are excreted with stool.
-  2. In the small intestine, females may produce approximately 200,000 eggs per day. The eggs are excreted with stool (feces). Only fertilized eggs cause infection.
-  3. The fertilized eggs develop in the soil. The eggs develop best in moist, warm, shaded soil.
-  4. People become infected when they swallow Ascaris eggs, often in food that came in contact with soil contaminated with human stool containing fertilized Ascaris eggs.
-  5. The eggs hatch and release larvae in the intestine.
-  6. The larvae penetrate the wall of the small intestine and travel through the lymphatic vessels (tubes that carry a fluid called lymph through the body) and bloodstream to the lungs.
-  7. Once inside the lungs, larvae pass into air sacs (alveoli) in the lungs, move up the respiratory tract and into the throat, and are swallowed. When the larvae reach the small intestine, they develop into adult worms.
+ The life cycle of Ascaris worms begins when adult worms reside in the small intestine of humans. In this environment, female worms—which are generally larger than males—can produce approximately 200,000 eggs per day. These eggs are passed out of the body through the stool. Only fertilized eggs are capable of causing infection. Once excreted, the fertilized eggs require specific environmental conditions to develop; they mature best in moist, warm, and shaded soil.
+
+People typically become infected by accidentally ingesting these eggs, often through food that has been in contact with soil contaminated by human feces containing fertilized Ascaris eggs. After ingestion, the eggs hatch in the small intestine, releasing larvae. These larvae then penetrate the intestinal wall and travel via the lymphatic system and bloodstream to the lungs. Within the lungs, the larvae enter the air sacs (alveoli), migrate up the respiratory tract to the throat, and are subsequently swallowed. Once back in the small intestine, the larvae mature into adult worms, completing the life cycle.
   """)
   st.image("https://edge.sitecorecloud.io/mmanual-ssq1ci05/media/home/images/a/s/c/ascaris-lumbricoides-lifecycle-lg-cdc-sized.jpg?sc_lang=en&mw=2048")
   st.markdown("""
