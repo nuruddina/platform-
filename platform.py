@@ -297,13 +297,13 @@ def parasite_detail_page():
   st.header("9.Reference ")
   st.markdown("""
   1. Centers for Disease Control and Prevention. (2019, July 19). DPDx - Ascariasis.https://www.cdc.gov/dpdx/ascariasis/index.html
-  2. Centers for Disease Control and Prevention. (n.d.). DPDx - Hymenolepiasis. https://www.cdc.gov/dpdx/hymenolepiasis/index.html
-  3. Centers for Disease Control and Prevention. (n.d.). DPDx - Hymenolepiasis. https://www.cdc.gov/dpdx/hymenolepiasis/index.html
-  4. Centers for Disease Control and Prevention. (n.d.). DPDx - Taeniasis. https://www.cdc.gov/dpdx/taeniasis/index.html
-  5. Centers for Disease Control and Prevention. (n.d.). DPDx - Trichuriasis. https://www.cdc.gov/dpdx/trichuriasis/index.html
-  6. Centers for Disease Control and Prevention. (n.d.). DPDx - Hookworm. https://www.cdc.gov/dpdx/hookworm/index.html
-  7. Centers for Disease Control and Prevention. (n.d.). DPDx - Opisthorchiasis. https://www.cdc.gov/dpdx/opisthorchiasis/index.html
-  8. Centers for Disease Control and Prevention. (n.d.). DPDx - Heterophyiasis. https://www.cdc.gov/dpdx/heterophyiasis/index.html
+  2. Centers for Disease Control and Prevention. (n.d.). DPDx - Hymenolepiasis.https://www.cdc.gov/dpdx/hymenolepiasis/index.html
+  3. Centers for Disease Control and Prevention. (n.d.). DPDx - Hymenolepiasis.https://www.cdc.gov/dpdx/hymenolepiasis/index.html
+  4. Centers for Disease Control and Prevention. (n.d.). DPDx - Taeniasis.https://www.cdc.gov/dpdx/taeniasis/index.html
+  5. Centers for Disease Control and Prevention. (n.d.). DPDx - Trichuriasis.https://www.cdc.gov/dpdx/trichuriasis/index.html
+  6. Centers for Disease Control and Prevention. (n.d.). DPDx - Hookworm.https://www.cdc.gov/dpdx/hookworm/index.html
+  7. Centers for Disease Control and Prevention. (n.d.). DPDx - Opisthorchiasis.https://www.cdc.gov/dpdx/opisthorchiasis/index.html
+  8. Centers for Disease Control and Prevention. (n.d.). DPDx - Heterophyiasis.https://www.cdc.gov/dpdx/heterophyiasis/index.html
   """)
 
 
