@@ -31,7 +31,7 @@ def home_page():
     - *Ascaris lumbricoides*
     - *Hymenolepis nana*
     - *Hymenolepis diminuta*
-    - *Tenia spp.*
+    - *Taenia spp.*
     - *Trichuris trichiura*
     - *Hookworm*
     - *Opisthorchis viverrini*
@@ -59,7 +59,7 @@ def parasite_detail_page():
   - [Ascaris lumbricoides](#ascaris-lumbricoides)
   - [Hymenolepsis nana](#hymenolepsis-nana)
   - [Hymenolepsis diminuta](#hymenolepsis-diminuta)
-  - [Tenia spp.](#tenia-spp.)
+  - [Taenia spp.](#taenia-spp.)
   - [Trichuris trichiura](#trichuris-trichiura)
   - [Hookworm](#hookworm)
   - [Opisthorchis viverrini](#opisthorchis-viverrini)
@@ -157,8 +157,8 @@ def parasite_detail_page():
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------
 
-#tenia-----------------------------------------------------------------------------------------------------------------------------------------------
-  st.header("4.Tenia spp.")
+#taenia-----------------------------------------------------------------------------------------------------------------------------------------------
+  st.header("4.Taenia spp.")
   st.subheader("Geographical Distribution")
   st.write("""
   Taenia saginata and T. solium are worldwide in distribution. Taenia solium is more prevalent in poorer communities where humans live in close contact with pigs and eat undercooked pork. Taenia asiatica is limited to Asia and is seen mostly in the Republic of Korea, China, Taiwan, Indonesia, and Thailand.
@@ -391,7 +391,7 @@ def quiz_page():
         st.experimental_rerun()
 
 def reference_page():
-
+  st.write("this is page ai reference")
   
 
 
