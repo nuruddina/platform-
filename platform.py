@@ -64,6 +64,7 @@ def parasite_detail_page():
   - [Hookworm](#hookworm)
   - [Opisthorchis viverrini](#opisthorchis-viverrini)
   - [Minute intestinal flukes](#minute-intestinal-flukes)
+  - [reference] (#reference)
 """)
 #----------------------------------------------------------------------------------------------------------------------------------------
   
