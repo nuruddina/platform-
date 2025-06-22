@@ -107,12 +107,8 @@ def parasite_detail_page():
   st.image("https://www.cdc.gov/dpdx/hymenolepiasis/images/2/H_nana_egg_wtmt2.jpg?_=01693")
   st.subheader("Life cycle")
   st.markdown("""
-  1. Eggs passed in stool are immediately infective ,Eggs released in feces can infect instantly and survive up to 10 days outside the host.
-  2. Direct ingestion of eggs by humans causes infection ,Through contaminated food, water, or hands → eggs hatch in the intestine.
-  3. Oncospheres penetrate intestinal villi and develop into cysticercoid larvae ,Larvae mature inside the villi before returning to the intestinal lumen.
-  4. Cysticercoids evaginate scoleces and attach to intestinal mucosa ,They develop into adult worms in the ileum (part of the small intestine).
-  5. Adults release eggs through gravid proglottids ,Eggs are excreted or may cause autoinfection inside the same host.
-  6. Autoinfection allows the parasite to persist for years,Eggs hatch internally, restarting the cycle without leaving the body.
+  The life cycle of the parasite begins when eggs are passed in the stool of an infected individual. These eggs are immediately infective and can survive in the external environment for up to 10 days. Humans become infected primarily through the accidental ingestion of these eggs, often via contaminated food, water, or hands. Once ingested, the eggs hatch in the small intestine, releasing oncospheres. These oncospheres penetrate the intestinal villi and develop into cysticercoid larvae within the tissue.
+  As the larvae mature, they return to the intestinal lumen, where they evaginate their scoleces and attach themselves to the intestinal mucosa, particularly in the ileum, a section of the small intestine. There, they develop into adult worms. The adult worms release eggs through gravid proglottids, which are either excreted in the stool or may cause autoinfection within the same host. In cases of autoinfection, the eggs hatch internally, allowing the parasite to complete its life cycle without leaving the host’s body. This mechanism enables the infection to persist for extended periods, sometimes lasting for years.
   """)
   st.image("https://www.cdc.gov/dpdx/hymenolepiasis/modules/H_nana_LifeCycle.gif?_=01675")
   st.markdown("""
