@@ -294,7 +294,7 @@ def parasite_detail_page():
   """)
 #-----------------------------------------------------------------------------------------------------------------------
 #reference_page----------------------------------------------------------------------------------------------------------------------- 
-  st.header("9.Reference ")
+  st.header("Reference ")
   st.markdown("""
   1. Centers for Disease Control and Prevention. (2019, July 19). DPDx - Ascariasis.https://www.cdc.gov/dpdx/ascariasis/index.html
   """)
