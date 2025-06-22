@@ -131,12 +131,8 @@ def parasite_detail_page():
   st.image("http://www.medical-labs.net/wp-content/uploads/2014/06/H.diminuta-OVA.jpg")
   st.subheader("Life cycle")
   st.markdown("""
-  1. ggs are passed in the feces of infected rodents or humans Gravid proglottids disintegrate in the intestine, releasing eggs that are excreted in feces.
-  2. Eggs are ingested by arthropod intermediate hosts (e.g., beetles, fleas) ,Common hosts include Tribolium species (flour beetles).
-  3. Oncospheres hatch and penetrate the intestinal wall of the arthropod ,They develop into cysticercoid larvae inside the insect's body.
-  4. Humans or rodents become infected by ingesting infected arthropods,Often through contaminated food (e.g., cereals) or environmental exposure.
-  5. Cysticercoid larvae are released in the stomach and evert their scolex,The scolex attaches to the intestinal wall using suckers.
-  6. Adult worms mature in about 20 days and produce eggs,Adults can grow up to 30 cm; eggs are again released in feces, continuing the cycle.
+  The life cycle of this parasite begins when eggs are passed in the feces of infected rodents or humans. Gravid proglottids, segments of the adult worm containing eggs, disintegrate within the host’s intestine, releasing eggs that are subsequently excreted in the stool. These eggs are then ingested by arthropod intermediate hosts, such as beetles or fleas, with Tribolium species (flour beetles) being particularly common carriers. Once inside the arthropod, the eggs hatch, and the resulting oncospheres penetrate the intestinal wall, developing into cysticercoid larvae within the insect’s body.
+  Humans or rodents may become infected by accidentally ingesting these infected arthropods, often through contaminated food—such as improperly stored cereals—or by exposure in infested environments. When ingested, the cysticercoid larvae are released in the stomach, where they evert their scolex (head) and attach to the intestinal wall using suckers. The worms mature into adults within approximately 20 days. Adult worms, which can grow up to 30 centimeters in length, begin producing eggs that are once again released through the feces, thereby continuing the cycle.
   """)
   st.image("https://www.cdc.gov/dpdx/hymenolepiasis/modules/H_diminuta_LifeCycle.gif?_=01676")
   st.markdown("""
