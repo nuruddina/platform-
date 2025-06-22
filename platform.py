@@ -390,6 +390,9 @@ def quiz_page():
             st.session_state.pop(f"q_{idx}", None)
         st.experimental_rerun()
 
+def reference_page():
+
+  
 
 
 
@@ -405,6 +408,7 @@ pages = {
     "Parasite egg Detail": parasite_detail_page,
     "Ai Detector": ai_detector_page,
     "Quiz": quiz_page,
+    "Reference": reference_page,
     }
 
 selected_page = st.sidebar.selectbox("Select a page", list(pages.keys()))
