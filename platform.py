@@ -23,9 +23,9 @@ def home_page():
     - Diagnostic features and clinical relevance
 
     ##  Features
-    - 🔍 **Egg Reference Gallery** – High-quality images and descriptions of parasite eggs
-    - 📝 **Interactive Quiz** – Test your knowledge with multiple-choice questions
-    - 📖 **Learning Resources** – Educational material and transmission life cycles
+    - **Egg Reference Gallery** – High-quality images and descriptions of parasite eggs
+    - **Interactive Quiz** – Test your knowledge with multiple-choice questions
+    - **Learning Resources** – Educational material and transmission life cycles
 
     ## Target Parasites Covered
     - *Ascaris lumbricoides*
