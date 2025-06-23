@@ -155,12 +155,8 @@ def parasite_detail_page():
   st.image("https://www.cdc.gov/dpdx/taeniasis/images/1/Taenia_egg.jpg?_=96649")
   st.subheader("Life cycle")
   st.markdown("""
-  1. Eggs or gravid proglottids are passed in human feces ,These can survive in the environment for days to months.
-  2. Cattle or pigs ingest eggs or proglottids from contaminated vegetation,T. saginata infects cattle; T. solium and T. asiatica infect pigs.
-  3. Oncospheres hatch in the animal’s intestine and migrate to striated muscles ,They develop into cysticerci, which can survive in tissue for years.
-  4. Humans become infected by eating raw or undercooked infected meat ,Ingested cysticerci mature into adult tapeworms in the human intestine.
-  5. Adult tapeworms attach to the small intestine via the scolex ,Development into a fully mature worm takes around 2 months.
-  6. Gravid proglottids are passed in feces, releasing thousands of eggs ,T. saginata may produce up to 100,000 eggs per proglottid, T. solium about 50,000.
+  The life cycle of Taenia tapeworms begins when eggs or gravid proglottids are passed in human feces, which can remain viable in the environment for days to months. These are ingested by cattle or pigs through contaminated vegetation—T. saginata infects cattle, while T. solium and T. asiatica infect pigs. Inside the animal, the eggs hatch into oncospheres that migrate to muscle tissue and develop into cysticerci, which can survive for years.
+  Humans become infected by consuming raw or undercooked infected meat. The cysticerci then mature into adult tapeworms in the intestine, a process that takes about two months. The adult worms attach to the small intestine and begin producing proglottids, which are released in feces, each containing tens of thousands of eggs, thus continuing the cycle..
   """)
   st.image("https://www.cdc.gov/dpdx/taeniasis/modules/Taenia_LifeCycle.gif?_=96656")
   st.markdown("""
@@ -183,12 +179,8 @@ def parasite_detail_page():
   st.image("https://www.cdc.gov/dpdx/trichuriasis/images/1/Trichuris_trichiura_egg1.jpg?_=01207")
   st.subheader("Life cycle")
   st.markdown("""
-  1. Unembryonated eggs are passed in the stool ,Eggs are released by adult females in the large intestine and excreted in feces.
-  2. Eggs develop in soil through multiple stages to become infective ,They pass through a 2-cell stage, advanced cleavage, and embryonate in 15–30 days.
-  3. Humans become infected by ingesting embryonated eggs ,Via contaminated hands, food, or soil.
-  4. Eggs hatch in the small intestine, releasing larvae ,Larvae migrate to the large intestine.
-  5. Larvae mature into adult worms in the cecum and colon ,Adults thread their anterior ends into the mucosa and remain fixed.
-  6. Females begin egg production 60–70 days post-infection ,They lay 3,000–20,000 eggs per day; adult worms can live up to 1 year.
+  The life cycle begins when unembryonated eggs are passed in human stool, having been released by adult female worms in the large intestine. In the soil, these eggs develop through several stages and become infective within 15 to 30 days. Humans acquire the infection by ingesting embryonated eggs through contaminated hands, food, or soil.
+  Once ingested, the eggs hatch in the small intestine, and the larvae migrate to the large intestine. There, they mature into adult worms, which attach to the mucosal lining of the cecum and colon. About 60 to 70 days after infection, females begin producing 3,000 to 20,000 eggs daily. Adult worms can survive in the host for up to one year.
   """)
   st.image("https://www.cdc.gov/dpdx/trichuriasis/modules/Trichuris_LifeCycle.gif?_=01176")
   st.markdown("""
@@ -210,12 +202,9 @@ def parasite_detail_page():
   st.image("https://www.cdc.gov/dpdx/hookworm/images/1/Hookworm_2x2_B.jpg?_=02464")
   st.subheader("Life cycle")
   st.markdown("""
-  1. Eggs are passed in the stool and hatch into rhabditiform larvae in 1–2 days under moist, warm, shaded conditions.
-  2. Larvae mature into infective filariform (L3) larvae in 5–10 days and can survive 3–4 weeks in the soil.
-  3. Infective larvae penetrate human skin (often via bare feet), enter the bloodstream, and travel to the lungs.
-  4. Larvae migrate up the bronchial tree to the throat, are swallowed, and reach the small intestine.
-  5. Adults reside in the jejunum, attach to the intestinal wall, and feed on host blood.
-  6. Some larvae may become dormant (hypobiosis); A. duodenale can infect via oral or transmammary routes, unlike N. americanus.
+  The life cycle begins when eggs are passed in the stool and hatch into rhabditiform larvae within 1–2 days under warm, moist, and shaded conditions. These larvae develop into infective filariform (L3) larvae within 5–10 days and can survive in soil for several weeks.
+  Infective larvae penetrate human skin—often through bare feet—enter the bloodstream, and travel to the lungs. From there, they migrate up the bronchial tree, are swallowed, and reach the small intestine.
+  In the jejunum, the larvae mature into adult worms that attach to the intestinal wall and feed on the host's blood. Some larvae may enter a dormant state (hypobiosis). Notably, Ancylostoma duodenale can also infect via oral or transmammary routes, unlike Necator americanus.
   """)
   st.image("https://www.cdc.gov/dpdx/hookworm/modules/Hookworm_LifeCycle_19.jpg?_=81699")
   st.markdown("""
@@ -237,12 +226,9 @@ def parasite_detail_page():
   st.image("https://www.cdc.gov/dpdx/opisthorchiasis/images/1/O_viverrini_egg_wtmt_BAM3.jpg?_=00772")
   st.subheader("Life cycle")
   st.markdown("""
-  1. Fully developed eggs are passed in human or animal feces.
-  2. Eggs are ingested by snails (1st intermediate host), where miracidia hatch and develop into sporocysts, rediae, then cercariae.
-  3. Cercariae are released from the snail and penetrate freshwater fish (2nd intermediate host).
-  4. Inside fish, cercariae encyst as metacercariae in muscles or under the scales.
-  5. Humans or mammals become infected by eating undercooked fish; metacercariae excyst in the duodenum.
-  6. They migrate to bile ducts, mature into adults, and begin egg production after 3–4 weeks.
+  The life cycle begins when fully developed eggs are passed in the feces of humans or animals. These eggs are ingested by freshwater snails, the first intermediate host, where they hatch into miracidia and develop through several stages—sporocysts, rediae, and then cercariae.
+  The cercariae are released from the snails and penetrate freshwater fish, the second intermediate host. Inside the fish, they encyst as metacercariae within the muscles or beneath the scales.
+  Humans or other mammals become infected by consuming undercooked or raw fish containing metacercariae. Once ingested, the parasites excyst in the duodenum, migrate to the bile ducts, and mature into adult flukes, beginning egg production within 3 to 4 weeks.
   """)
   st.image("https://www.cdc.gov/dpdx/opisthorchiasis/modules/Opisthorchis_LifeCycle.gif?_=00785")
   st.markdown("""
@@ -264,12 +250,9 @@ def parasite_detail_page():
   st.image("https://www.troccap.com/wp-content/uploads/2018/09/intestinal-fluke-fig1.jpg")
   st.subheader("Life cycle")
   st.markdown("""
-  1. Embryonated eggs are passed in feces and contain fully developed miracidia.
-  2. Snails (e.g., Cerithidia, Pironella) ingest eggs, and miracidia hatch and develop into sporocysts, rediae, and cercariae.
-  3. Cercariae exit the snail and encyst as metacercariae in freshwater or brackish fish.
-  4. Humans or animals become infected by eating undercooked or salted fish containing metacercariae.
-  5. Metacercariae excyst in the small intestine, attach to the mucosa, and mature into adults.
-  6. Definitive hosts include humans, cats, dogs, and fish-eating birds.
+  The life cycle begins when embryonated eggs, containing fully developed miracidia, are passed in the feces of infected hosts. These eggs are ingested by specific snails such as Cerithidia or Pironella, where the miracidia hatch and develop through sporocyst, redia, and cercaria stages.
+  The cercariae are then released from the snails and encyst as metacercariae in freshwater or brackish fish. Humans and other animals become infected by consuming undercooked or salted fish that contain these metacercariae.
+  After ingestion, the metacercariae excyst in the small intestine, attach to the intestinal mucosa, and develop into adult flukes. Definitive hosts include humans, cats, dogs, and fish-eating birds.
   """)
   st.image("https://www.cdc.gov/dpdx/heterophyiasis/modules/Heterophyes_LifeCycle.gif?_=01559")
   st.markdown("""
