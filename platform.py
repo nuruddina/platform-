@@ -81,6 +81,10 @@ def parasite_detail_page():
   - **Fertilized eggs:** The fertilized eggs are laid by females after inseminated by mating with a male. These are embryonated and develop into the infective eggs.
   - **Unfertilized Eggs:** he unfertilized eggs are laid by uninseminated female. Thes are non-embryonated and cannot become infective.
   """)
+  st.image('https://ars.els-cdn.com/content/image/3-s2.0-B9780128187319001075-f00107-14-9780128187319.jpg')
+  st.write("""
+  **Adult:** worms are characterized by their large size, cylindrical, unsegmented bodies, and distinct sexual dimorphism. Females are typically 20-35 cm long, while males are slightly smaller, ranging from 15-30 cm. Both sexes have three "lips" at the anterior end of the body. 
+  """)
   st.subheader("Life cycle")
   st.markdown("""
   The life cycle of *Ascaris* worms begins when adult worms reside in the small intestine of humans. In this environment, female worms—which are generally larger than males—can produce approximately 200,000 eggs per day. These eggs are passed out of the body through the stool. Only fertilized eggs are capable of causing infection. Once excreted, the fertilized eggs require specific environmental conditions to develop; they mature best in moist, warm, and shaded soil.
