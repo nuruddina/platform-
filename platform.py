@@ -280,23 +280,21 @@ def parasite_detail_page():
   7. Centers for Disease Control and Prevention. (n.d.). DPDx - Opisthorchiasis.https://www.cdc.gov/dpdx/opisthorchiasis/index.html
   8. Centers for Disease Control and Prevention. (n.d.). DPDx - Heterophyiasis.https://www.cdc.gov/dpdx/heterophyiasis/index.html
   """)
-
+#ai detection----------------------------------------------------------------------------------------------------------------------
+import cv2
+import numpy as np
+import tensorflow as tf
 
 
 def ai_detector_page():
-  st.write("this is page ai detector")
-
-import tensorflow as tf
-from PIL import Image
-
-st.title("Parasite Egg Detector")
+  st.title("Parasit Egg Detector")
 
 #----------------------------------------------------------------------------------------------
-model_path = "tong.keras"
+  model_path = "model/tong.keras"
 
-model = tf.keras.models.load_model(model_path, custom_objects={'mse': tf.keras.losses.MeanSquaredError()})
+  model = tf.keras.models.load_model(model_path, custom_objects={'mse': tf.keras.losses.MeanSquaredError()})
 
-def boxlocation(img_c, box_size):
+  def boxlocation(img_c, box_size):
     non_zero_points = np.argwhere(img_c > 0)
     if non_zero_points.size == 0:
         return None
@@ -306,12 +304,12 @@ def boxlocation(img_c, box_size):
 
     return [y_min - box_size, y_max + box_size, x_min - box_size, x_max + box_size]
 
-def drawbox(img, label, a, b, c, d, box_size):
+  def drawbox(img, label, a, b, c, d, box_size):
     image = cv2.rectangle(img, (c, a), (d, b), (0, 255, 0), 2)
     image = cv2.putText(image, label, (c + box_size, a - 10), cv2.FONT_HERSHEY_TRIPLEX, 2, (255, 0, 255), 1)
     return image
 
-def objectdet(img):
+  def objectdet(img):
     img = cv2.resize(img, (img.shape[1] // 1, img.shape[0] // 1), interpolation=cv2.INTER_AREA)
     
     box_size_y, box_size_x = 370, 370
@@ -355,6 +353,7 @@ if uploaded_file is not None:
 
     except Exception as e:
         st.error(f"Error loading image: {e}")
+  
 #--------------------------------------------------------------------------------------------------------
 def quiz_page():
   st.write("this is page quiz")
