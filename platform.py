@@ -292,7 +292,7 @@ from PIL import Image
 st.title("Parasite Egg Detector")
 
 #----------------------------------------------------------------------------------------------
-model_path = "model/ev_cnn_mobile.keras"
+model_path = "tong.keras"
 
 model = tf.keras.models.load_model(model_path, custom_objects={'mse': tf.keras.losses.MeanSquaredError()})
 
