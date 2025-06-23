@@ -155,8 +155,7 @@ def parasite_detail_page():
   st.image("https://www.cdc.gov/dpdx/taeniasis/images/1/Taenia_egg.jpg?_=96649")
   st.subheader("Life cycle")
   st.markdown("""
-  The life cycle of Taenia tapeworms begins when eggs or gravid proglottids are passed in human feces, which can remain viable in the environment for days to months. These are ingested by cattle or pigs through contaminated vegetation—T. saginata infects cattle, while T. solium and T. asiatica infect pigs. Inside the animal, the eggs hatch into oncospheres that migrate to muscle tissue and develop into cysticerci, which can survive for years.
-  Humans become infected by consuming raw or undercooked infected meat. The cysticerci then mature into adult tapeworms in the intestine, a process that takes about two months. The adult worms attach to the small intestine and begin producing proglottids, which are released in feces, each containing tens of thousands of eggs, thus continuing the cycle..
+  The life cycle of Taenia tapeworms begins when eggs or gravid proglottids are passed in human feces, which can remain viable in the environment for days to months. These are ingested by cattle or pigs through contaminated vegetation—T. saginata infects cattle, while T. solium and T. asiatica infect pigs. Inside the animal, the eggs hatch into oncospheres that migrate to muscle tissue and develop into cysticerci, which can survive for years.Humans become infected by consuming raw or undercooked infected meat. The cysticerci then mature into adult tapeworms in the intestine, a process that takes about two months. The adult worms attach to the small intestine and begin producing proglottids, which are released in feces, each containing tens of thousands of eggs, thus continuing the cycle..
   """)
   st.image("https://www.cdc.gov/dpdx/taeniasis/modules/Taenia_LifeCycle.gif?_=96656")
   st.markdown("""
