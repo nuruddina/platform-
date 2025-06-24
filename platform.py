@@ -344,7 +344,7 @@ quiz_questions = [
         "answer": "Hookworm"
     },
     {   
-        "quesytion": "Which of the following is the infective stage of Hymenolepis diminuta"
+        "question": "Which of the following is the infective stage of Hymenolepis diminuta"
         "options": ["procercoid", "plerocercoid","egg", "cysticercoid"],
         "answer": "cysticercoid"
     }
