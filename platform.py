@@ -2,14 +2,11 @@ import streamlit as st
 from PIL import Image
 import os
 
-def home_page():
-  st.write("this is home page")
-  st.markdown('<h2 style="text-align:center;">Platform for parasitic egg detection</h2>',unsafe_allow_html=True)
+
 def home_page():
     st.title(" Parasite Egg Identification & Quiz Platform")
+    st.markdown('<h2 style="text-align:center;">Platform for parasitic egg detection</h2>',unsafe_allow_html=True)    
     
-    st.image("https://example.com/parasite_eggs_banner.jpg", use_column_width=True)  # Optional banner image
-
     st.markdown("""
     ##  Purpose
     This web application is designed to assist students, medical technologists, and professionals 
