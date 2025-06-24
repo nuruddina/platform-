@@ -342,7 +342,11 @@ quiz_questions = [
         "question": "Which egg is oval with a thin shell and visible larva inside?",
         "options": ["Hymenolepis nana", "Ascaris lumbricoides", "Hookworm", "Tenia spp."],
         "answer": "Hookworm"
-    }
+    },
+    {   "quesytion": "Which of the following is the infective stage of Hymenolepis diminuta"
+        "option": ["procercoid", "plerocercoid","egg", "cysticercoid"]'
+        "answer": "cysticercoid"
+}
 ]
 
 
