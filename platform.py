@@ -455,8 +455,6 @@ def reference_page():
 
       
 
-
-
 st.sidebar.markdown("<div class='sidebar-title'>Platform Navigation</div>", unsafe_allow_html=True)
     
 pages = {
