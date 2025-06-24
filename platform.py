@@ -345,7 +345,7 @@ quiz_questions = [
     },
     {   
         "quesytion": "Which of the following is the infective stage of Hymenolepis diminuta"
-        "option": ["procercoid", "plerocercoid","egg", "cysticercoid"],
+        "options": ["procercoid", "plerocercoid","egg", "cysticercoid"],
         "answer": "cysticercoid"
     }
 ]
