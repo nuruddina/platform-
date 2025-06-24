@@ -104,7 +104,7 @@ def parasite_detail_page():
   st.header("2.Hymenolepis nana")
   st.subheader("Geographical Distribution")
   st.write("""
-  Hymenolepis nana is the most common cause of all cestode infections, and is encountered worldwide. In temperate areas its incidence is higher in children and institutionalized groups.
+  Patients infected with Hymenolepis nana have been found in South America, Southern Europe, Russia, and India. In Thailand, the infection is commonly found in children living in crowded conditions, such as in orphanages and child care institutions.
   """)
   st.subheader("Morphology")
   st.image("https://www.cdc.gov/dpdx/hymenolepiasis/images/2/H_nana_egg_wtmt2.jpg?_=01693")
