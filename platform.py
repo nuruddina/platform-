@@ -377,7 +377,7 @@ def quiz_page():
         st.experimental_rerun()
 
 def reference_page():
-  st.write("this is page ai reference")
+  st.write("this is page  reference")
   
 
 
