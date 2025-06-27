@@ -351,7 +351,7 @@ def quiz_page():
             ["Inhalation","Waterborne larvae", "Fecal-oral ingestion of eggs ","Transdermal penetration",]
         )
     
-    submit_button = st.form_submit_button(label="Submit Answers")
+        submit_button = st.form_submit_button(label="Submit Answers")
 
     if submit_button:
         score = 0
