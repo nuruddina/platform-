@@ -21,14 +21,12 @@ with col1:
 with col2:
     st.subheader("Parasited image")
 
-    img_3 = Image.open("")
-    img_4 = Image.open("")
+    img_3 = Image.open("sample/TT_0661.tif")
+    img_4 = Image.open("sample/TT_2.png")
 
     st.image(img_3, caption="Input image", use_container_width=True)
     st.image(img_4, caption="Detection image", use_container_width=True)
 
-    
-  
 
 def parasite_detail_page():
   
