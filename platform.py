@@ -280,43 +280,47 @@ def parasite_detail_page():
 
 #--------------------------------------------------------------------------------------------------------
 
-def ai_detector_page():
-    st.write("this is ai detector")
-
-
-    
-def quiz_page():
-  st.write("this is page quiz")
-
 import streamlit as st
 
-with st.form(key="quiz_form"):
-    q1 = st.radio(
-        "Question 1: Which parasite is transmitted by ingestion of undercooked freshwater fish?",
-        ["Hymenolepis nana", "Opisthorchis viverrini", "Hookworm", "Minute intestinal flukes"],
-    )
-    q2 = st.radio(
-        "question 2: Which parasite can auto-infect the host?",
-        ["Hymenolepis nana", "Ascaris lumbricoides", "Tenia spp.", "Hookworm"],
-    )
-    q3 = st.radio(
-         "question 3: Which of the following is the infective stage of Hymenolepis diminuta",
-         ["procercoid", "plerocercoid","egg", "cysticercoid"],
-    )
-    q4 = st.radio(
-        "question 4: What helps to differentiate Hymenolepis nana eggs from Hymenolepis diminuta eggs?",
-        ["Shell color", "Egg size", "Presence of polar filaments", "Presence of operculum"],
-    )
-    q5 = st.radio(
-        "question 5: Which parasite egg is the smallest among the flukes listed below?",
-        ["Fasciola hepatica", "Opisthorchis viverrini", " Minute intestinal flukes", " Paragonimus westermani"],
-    )
-    q6 = st.radio(
-        "question 6: The following helminth images are (high dry power, 400x)?",
-        ["Trichuris trichiura","Taenia sp.","Trichinella spiralis","Paragonimus sp."],
-    )
+def quiz_page():
+    st.write("This is the quiz page")
     
-    submit_button = st.form_submit_button(label="Submit Answere")
+    with st.form(key="quiz_form"):
+        q1 = st.radio(
+            "Question 1: Which parasite is transmitted by ingestion of undercooked freshwater fish?",
+            ["Hymenolepis nana", "Opisthorchis viverrini", "Hookworm", "Minute intestinal flukes"],
+        )
+        q2 = st.radio(
+            "Question 2: Which parasite can auto-infect the host?",
+            ["Hymenolepis nana", "Ascaris lumbricoides", "Taenia spp.", "Hookworm"],
+        )
+        q3 = st.radio(
+            "Question 3: Which of the following is the infective stage of Hymenolepis diminuta?",
+            ["procercoid", "plerocercoid", "egg", "cysticercoid"],
+        )
+        q4 = st.radio(
+            "Question 4: What helps to differentiate Hymenolepis nana eggs from Hymenolepis diminuta eggs?",
+            ["Shell color", "Egg size", "Presence of polar filaments", "Presence of operculum"],
+        )
+        q5 = st.radio(
+            "Question 5: Which parasite egg is the smallest among the flukes listed below?",
+            ["Fasciola hepatica", "Opisthorchis viverrini", "Minute intestinal flukes", "Paragonimus westermani"],
+        )
+        
+        st.image(
+            "https://www.cdc.gov/dpdx/trichuriasis/images/1/Trichuris_trichiura_egg1.jpg?_=01207",
+            caption="Question 6: Identify this helminth egg (400x magnification)",
+            width=300
+        )
+        q6 = st.radio(
+            "Your answer for Question 6:",
+            ["Trichuris trichiura", "Taenia sp.", "Trichinella spiralis", "Paragonimus sp."],
+        )
+
+        # Placeholder for question 7 (if needed)
+        # q7 = st.radio("Question 7: ...", ["Option 1", "Option 2", "Option 3", "Option 4"])
+
+        submit_button = st.form_submit_button(label="Submit Answers")
 
     if submit_button:
         score = 0
@@ -324,15 +328,29 @@ with st.form(key="quiz_form"):
             score += 1
         if q2 == "Hymenolepis nana":
             score += 1
-        if q3 ==  "cysticercoid":
+        if q3.lower() == "cysticercoid":
             score += 1
-        if q4 ==  "Presence of polar filaments":
+        if q4 == "Presence of polar filaments":
             score += 1
-        if q5 ==  "Minute intestinal flukes":
+        if q5.strip() == "Minute intestinal flukes":
             score += 1
         if q6 == "Trichuris trichiura":
             score += 1
 
+        st.success(f"✅ Your Score: {score}/6")
+
+        if score == 6:
+            st.balloons()
+            st.write("Excellent! You got all correct.")
+        elif score >= 4:
+            st.write("Good job! Keep practicing.")
+        else:
+            st.write("Keep reviewing and try again!")
+
+
+    
+
+               
 
   
 
