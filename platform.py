@@ -3,29 +3,29 @@ from PIL import Image
 import os
 
 
+
 def home_page():
     st.title("A platform for parasite detection")
 
-col1, col2 = st.columns(2)
+    col1, col2 = st.columns(2)
 
-with col1:
-    st.subheader("parasited image")
-    
-    
-    img_1 = Image.open("sample image/TT_0660-2.tif")
-    img_2 = Image.open("sample image/TT_.png")
+    with col1:
+        st.subheader("Parasited image")
 
-    st.image(img_1, caption="Input image", use_container_width=True)
-    st.image(img_2, caption="Detection image", use_container_width=True)
+        img_1 = Image.open("sample image/TT_0660-2.tif")
+        img_2 = Image.open("sample image/TT_.png")
 
-with col2:
-    st.subheader("Parasited image")
+        st.image(img_1, caption="Input image", use_container_width=True)
+        st.image(img_2, caption="Detection image", use_container_width=True)
 
-    img_3 = Image.open("sample/TT_0661.tif")
-    img_4 = Image.open("sample/TT_2.png")
+    with col2:
+        st.subheader("Parasited image")
 
-    st.image(img_3, caption="Input image", use_container_width=True)
-    st.image(img_4, caption="Detection image", use_container_width=True)
+        img_3 = Image.open("sample/TT_0661.tif")
+        img_4 = Image.open("sample/TT_2.png")
+
+        st.image(img_3, caption="Input image", use_container_width=True)
+        st.image(img_4, caption="Detection image", use_container_width=True)
 
 
 def parasite_detail_page():
