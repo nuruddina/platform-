@@ -333,37 +333,7 @@ with st.form(key="quiz_form"):
         if q6 == "Trichuris trichiura":
             score += 1
 
-def quiz_page():
-    st.title("Parasite Egg Morphology and Transmission Quiz 🦠")
-    st.write("Answer the following questions about various parasitic eggs and their characteristics.")
 
-    # เก็บลำดับคำถามไว้ใน session_state
-    if "question_order" not in st.session_state:
-        st.session_state.question_order = random.sample(quiz_questions, len(quiz_questions))
-
-    score = 0
-
-    for idx, q in enumerate(st.session_state.question_order):
-        st.markdown(f"**Q{idx+1}: {q['question']}**")
-        user_answer = st.radio("Choose one:", q["options"], key=f"q_{idx}")
-        if user_answer == q["answer"]:
-            st.success("✅ Correct!")
-            score += 1
-        else:
-            st.error(f"❌ Incorrect. Correct answer: {q['answer']}")
-        st.write("---")
-
-    st.markdown(f"## Your final score: {score} / {len(st.session_state.question_order)}")
-
-    # ปุ่ม reset เพื่อเริ่มใหม่
-    if st.button("🔁 Restart Quiz"):
-        del st.session_state.question_order
-        for idx in range(len(quiz_questions)):
-            st.session_state.pop(f"q_{idx}", None)
-        st.experimental_rerun()
-
-def reference_page():
-  st.write("this is page  reference")
   
 
 
@@ -378,7 +348,7 @@ pages = {
     "Parasite egg Detail": parasite_detail_page,
     "Ai Detector": ai_detector_page,
     "Quiz": quiz_page,
-    "Reference": reference_page,
+    
     }
 
 selected_page = st.sidebar.selectbox("Select a page", list(pages.keys()))
