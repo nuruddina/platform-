@@ -12,7 +12,7 @@ with col1:
     st.subheader("parasited image")
     
     
-    img_1 = Image.open("/Users/nuruddina/Desktop/mushroom/components/components/TT_0660-2.tif")
+    img_1 = Image.open("/TT_0660-2.tif")
     img_2 = Image.open("/Users/nuruddina/Desktop/mushroom/components/components/TT_.png")
 
     st.image(img_1, caption="Input image", use_container_width=True)
