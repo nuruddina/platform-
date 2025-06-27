@@ -310,6 +310,24 @@ def quiz_page():
             "Question 10: How does Hookworm enter the human body?",
             ["Ingested egg ","Inhalation","Skin penetration", "Insect bites"],
         )
+        q11 = st.radio(
+            "Question 11: What is the infective form of minute intestinal flukes?",
+            ["Metacercaria in fish/crustaceans","Egg ingested via water","Cercaria penetrates skin","Miracidium infects snails"],
+        )
+        q12 = st.radio(
+            "Question 12: Which of the following accurately describes the larval migration route of Ascaris lumbricoides in the human host?",
+            ["Skin → lymph → intestines","B. Intestine → bloodstream → liver → lungs → pharynx → swallowed ", "Intestine → portal vein → brain ","Lung → bloodstream → skin"],
+        )
+        q13 = st.radio(
+            "Question 13: A stool specimen reveals an egg with a thick, barrel-shaped shell and prominent polar plugs. What is the most likely diagnosis?",
+            ["Trichuris trichiura","Ascaris lumbricoides","Hymenolepis nana","Opisthorchis viverrini",]
+        )
+        q14 = st.radio(
+            "Question 14: Which parasite most commonly infects through walking barefoot on soil?",
+            ["Hookworm ", "Ascaris ","Trichuris", "Taenia",]
+        )
+        q15 = st.radio(
+            "
             
             
             
@@ -339,7 +357,24 @@ def quiz_page():
             score += 1
         if q10 == "Skin penetration":
             score += 1
-        st.success(f"Your score is {score} from 10")
+        if q11 == "Metacercaria in fish/crustaceans":
+            score += 1
+        if q12 == "Intestine → bloodstream → liver → lungs → pharynx → swallowed":
+            score += 1
+        if q13 == "Trichuris trichiura":
+            score += 1
+        if q14 == "Hookworm":
+            score += 1
+        if q15 == "":
+            score += 1
+        if q16 == "":
+            score += 1
+        
+            
+        
+        
+        
+        st.success(f"Your score is {score} from 13")
 
 
         
