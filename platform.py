@@ -317,27 +317,10 @@ def quiz_page():
         if q6 == "Trichuris trichiura":
             score += 1
 
-        st.success(f"✅ Your Score: {score}/6")
-
-        if score == 6:
-            st.balloons()
-            st.write("Excellent! You got all correct.")
-        elif score >= 4:
-            st.write("Good job! Keep practicing.")
-        else:
-            st.write("Keep reviewing and try again!")
+       
 
 
-    
-
-               
-
-  
-
-
-
-
-    
+      
 
 st.sidebar.markdown("<div class='sidebar-title'>Platform Navigation</div>", unsafe_allow_html=True)
     
