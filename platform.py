@@ -291,21 +291,30 @@ def quiz_page():
             ["Fasciola hepatica", "Opisthorchis viverrini", "Minute intestinal flukes", "Paragonimus westermani"],
         )
         q6 = st.radio(
-            st.image(
-            "https://www.cdc.gov/dpdx/trichuriasis/images/1/Trichuris_trichiura_egg1.jpg?_=01207",
-            caption="Question 6: Identify this helminth egg (400x magnification)",
-            width=300
-        )
-        q6 = st.radio(
-            "Question 6:"Identify this helminth egg (400x magnification)?",
-            ["Trichuris trichiura", "Taenia sp.", "Trichinella spiralis", "Paragonimus sp."],
+            "Question 6: What is the infective stage of Ascaris lumbricoides?",
+            ["Adult worm", " L2 larva inside the egg", "L1 larva", "Non-embryonated egg"],
         )
         q7 = st.radio(
-            "
+            "Question 7: Which parasite requires insects as an intermediate host?",
+            ["Hymenolepis nana", " Hookworm", " Hymenolepis diminuta", "Trichuris trichiura"],
+        )
+        q8 = st.radio(
+            "Question 8: What distinguishes Taenia solium from T. saginata on microscopic examination of the eggs in stool?",
+            ["Shell striations", " Number of uterine branches", "Hooklets on oncosphere"," Cannot be distinguished by egg morphology"],
+        )
+        q9 = st.radio(
+            "Question 9:  In a stool sample, an egg is observed with a thin shell, presence of six hooklets, and no polar filaments. Which parasite is most likely responsible?",
+            ["Taenia spp.", " Hymenolepis nana","Trichuris trichiura ","Opisthorchis viverrini"],
+        )
+        q10 = st.radio(
+            "Question 10: How does Hookworm enter the human body?",
+            ["Ingested egg ","Inhalation","Skin penetration", "Insect bites"],
+        )
+            
+            
+            
 
-        # Placeholder for question 7 (if needed)
-        # q7 = st.radio("Question 7: ...", ["Option 1", "Option 2", "Option 3", "Option 4"])
-
+      
         submit_button = st.form_submit_button(label="Submit Answers")
 
     if submit_button:
@@ -320,8 +329,20 @@ def quiz_page():
             score += 1
         if q5.strip() == "Minute intestinal flukes":
             score += 1
-        if q6 == "Trichuris trichiura":
+        if q6 == "L2 larva inside the egg":
             score += 1
+        if q7 == "Hymenolepis diminuta":
+            score += 1
+        if q8 == "Cannot be distinguished by egg morphology"
+            score += 1
+        if q9 == " Taenia spp. "
+            score += 1
+        if q10 == "Skin penetration"
+            score += 1
+        st.success(f"Your score is {score} from 10")
+
+
+        
 
        
 
