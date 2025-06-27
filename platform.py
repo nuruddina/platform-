@@ -4,48 +4,30 @@ import os
 
 
 def home_page():
-    st.title(" Parasite Egg Identification & Quiz Platform")
-    st.markdown('<h2 style="text-align:center;">Platform for parasitic egg detection</h2>',unsafe_allow_html=True)    
+    st.title("A platform for parasite detection")
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.subheader("parasited image")
     
-    st.markdown("""
-    ##  Purpose
-    This web application is designed to assist students, medical technologists, and professionals 
-    in the identification and understanding of **parasitic eggs** through visual references, 
-    morphological features, and interactive quizzes.
+    
+    img_1 = Image.open("/Users/nuruddina/Desktop/mushroom/components/components/TT_0660-2.tif")
+    img_2 = Image.open("/Users/nuruddina/Desktop/mushroom/components/components/TT_.png")
 
-    ##  What You’ll Learn
-    - Morphological characteristics of different parasite eggs
-    - Routes and modes of transmission
-    - Key differences between similar parasites
-    - Diagnostic features and clinical relevance
+    st.image(img_1, caption="Input image", use_container_width=True)
+    st.image(img_2, caption="Detection image", use_container_width=True)
 
-    ##  Features
-    - **Egg Reference Gallery** – High-quality images and descriptions of parasite eggs
-    - **Interactive Quiz** – Test your knowledge with multiple-choice questions
-    - **Learning Resources** – Educational material and transmission life cycles
+with col2:
+    st.subheader("Parasited image")
 
-    ## Target Parasites Covered
-    - *Ascaris lumbricoides*
-    - *Hymenolepis nana*
-    - *Hymenolepis diminuta*
-    - *Taenia spp.*
-    - *Trichuris trichiura*
-    - *Hookworm*
-    - *Opisthorchis viverrini*
-    - *Minute intestinal flukes*
-    - ... and more
+    img_3 = Image.open("/Users/nuruddina/Desktop/mushroom/components/components/TT_0661.tif")
+    img_4 = Image.open("/Users/nuruddina/Desktop/mushroom/components/components/TT_2.png")
 
-    ## How to Use
-    1. Navigate through the sidebar menu to access pages.
-    2. Review reference materials or start the quiz.
-    3. Check your score and review correct answers.
+    st.image(img_3, caption="Input image", use_container_width=True)
+    st.image(img_4, caption="Detection image", use_container_width=True)
 
-    ---
-    🔄 **This platform is best viewed on desktop for image clarity and usability.**
-    """)
-
-    st.info("👉 Use the sidebar to get started with the reference section or the quiz.")
-
+    
   
 
 def parasite_detail_page():
