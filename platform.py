@@ -333,11 +333,11 @@ def quiz_page():
             score += 1
         if q7 == "Hymenolepis diminuta":
             score += 1
-        if q8 == "Cannot be distinguished by egg morphology"
+        if q8 == "Cannot be distinguished by egg morphology":
             score += 1
-        if q9 == " Taenia spp. "
+        if q9 == " Taenia spp. ":
             score += 1
-        if q10 == "Skin penetration"
+        if q10 == "Skin penetration":
             score += 1
         st.success(f"Your score is {score} from 10")
 
