@@ -315,9 +315,6 @@ with st.form(key="quiz_form"):
         "question 6: The following helminth images are (high dry power, 400x)?",
         ["Trichuris trichiura","Taenia sp.","Trichinella spiralis","Paragonimus sp."],
     )
-    q7 = st.radio(
-        ""
-    )
     
     submit_button = st.form_submit_button(label="Submit Answere")
 
