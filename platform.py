@@ -334,7 +334,7 @@ def quiz_page():
             "Question 16:  What is the common name of Taenia solium?",
             ["beef tapeworm", "pork tapeworm", "dwarf tapeworm", "rat tapeworm",]
         )
-        q17 st
+        
             
             
             
