@@ -290,16 +290,18 @@ def quiz_page():
             "Question 5: Which parasite egg is the smallest among the flukes listed below?",
             ["Fasciola hepatica", "Opisthorchis viverrini", "Minute intestinal flukes", "Paragonimus westermani"],
         )
-        
-        st.image(
+        q6 = st.radio(
+            st.image(
             "https://www.cdc.gov/dpdx/trichuriasis/images/1/Trichuris_trichiura_egg1.jpg?_=01207",
             caption="Question 6: Identify this helminth egg (400x magnification)",
             width=300
         )
         q6 = st.radio(
-            "Your answer for Question 6:",
+            "Question 6:"Identify this helminth egg (400x magnification)?",
             ["Trichuris trichiura", "Taenia sp.", "Trichinella spiralis", "Paragonimus sp."],
         )
+        q7 = st.radio(
+            "
 
         # Placeholder for question 7 (if needed)
         # q7 = st.radio("Question 7: ...", ["Option 1", "Option 2", "Option 3", "Option 4"])
