@@ -387,13 +387,13 @@ def quiz_page():
             score += 1
         if q16 == "pork tapeworm":
             score += 1
-        if q17 == "Opisthorchis viverrini" 
+        if q17 == "Opisthorchis viverrini": 
             score += 1
-        if q18 == "Necator americanus"
+        if q18 == "Necator americanus":
             score += 1
-        if q19 == "Anemia" 
+        if q19 == "Anemia": 
             score += 1
-        if q20 == "Fecal-oral ingestion of eggs " 
+        if q20 == "Fecal-oral ingestion of eggs ": 
             score += 1
         
         
