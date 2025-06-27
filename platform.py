@@ -320,14 +320,22 @@ def quiz_page():
         )
         q13 = st.radio(
             "Question 13: A stool specimen reveals an egg with a thick, barrel-shaped shell and prominent polar plugs. What is the most likely diagnosis?",
-            ["Trichuris trichiura","Ascaris lumbricoides","Hymenolepis nana","Opisthorchis viverrini",]
+            ["Trichuris trichiura","Ascaris lumbricoides","Hymenolepis nana","Opisthorchis viverrini"],
         )
         q14 = st.radio(
             "Question 14: Which parasite most commonly infects through walking barefoot on soil?",
-            ["Hookworm ", "Ascaris ","Trichuris", "Taenia",]
+            ["Hookworm ", "Ascaris ","Trichuris", "Taenia"],
         )
         q15 = st.radio(
-            "
+            "Question 15: Individuals contract Ascaris lumbricoides via which of the following?",
+            ["Inhalation","Insect bite","Ingestion","Inappropriate sexual practices"],
+        )
+        q16 = st.radio(
+            "Question 16:  What is the common name of Taenia solium?",
+            ["beef tapeworm", "pork tapeworm", "dwarf tapeworm", "rat tapeworm",]
+        )
+        q17 st
+            
             
             
             
@@ -365,16 +373,13 @@ def quiz_page():
             score += 1
         if q14 == "Hookworm":
             score += 1
-        if q15 == "":
+        if q15 == "Ingestion":
             score += 1
-        if q16 == "":
+        if q16 == "pork tapeworm":
             score += 1
         
             
-        
-        
-        
-        st.success(f"Your score is {score} from 13")
+        st.success(f"Your score is {score} from 16")
 
 
         
