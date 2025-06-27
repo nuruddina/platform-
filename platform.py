@@ -289,64 +289,52 @@ def quiz_page():
   st.write("this is page quiz")
 
 import streamlit as st
-import random
 
-# List of quiz questions
-quiz_questions = [
-    {
-        "question": "Which parasite egg has a characteristic barrel shape with bipolar plugs?",
-        "options": ["Ascaris lumbricoides", "Trichuris trichiura", "Hookworm", "Tenia spp."],
-        "answer": "Trichuris trichiura"
-    },
-    {
-        "question": "Which parasite is transmitted by ingestion of undercooked freshwater fish?",
-        "options": ["Hymenolepis nana", "Opisthorchis viverrini", "Hookworm", "Minute intestinal flukes"],
-        "answer": "Opisthorchis viverrini"
-    },
-    {
-        "question": "Which parasite’s egg has a thick mammillated shell?",
-        "options": ["Ascaris lumbricoides", "Hookworm", "Tenia spp.", "Trichuris trichiura"],
-        "answer": "Ascaris lumbricoides"
-    },
-    {
-        "question": "Minute intestinal flukes are typically transmitted via which route?",
-        "options": ["Skin penetration", "Ingestion of metacercaria in fish", "Fecal-oral", "Vector bite"],
-        "answer": "Ingestion of metacercaria in fish"
-    },
-    {
-        "question": "Which parasite can auto-infect the host?",
-        "options": ["Hymenolepis nana", "Ascaris lumbricoides", "Tenia spp.", "Hookworm"],
-        "answer": "Hymenolepis nana"
-    },
-    {
-        "question": "Which parasite has an operculated egg visible under the microscope?",
-        "options": ["Hookworm", "Opisthorchis viverrini", "Ascaris lumbricoides", "Trichuris trichiura"],
-        "answer": "Opisthorchis viverrini"
-    },
-    {
-        "question": "Which of these parasites infects humans through skin penetration?",
-        "options": ["Hookworm", "Trichuris trichiura", "Tenia spp.", "Minute intestinal flukes"],
-        "answer": "Hookworm"
-    },
-    {
-        "question": "Which parasite is transmitted by ingestion of contaminated cereal or insects?",
-        "options": ["Hymenolepis diminuta", "Tenia spp.", "Ascaris lumbricoides", "Hookworm"],
-        "answer": "Hymenolepis diminuta"
-    },
-    {
-        "question": "Tenia spp. eggs are typically transmitted through what source?",
-        "options": ["Contaminated vegetables", "Infected pork or beef", "Skin penetration", "Drinking water"],
-        "answer": "Infected pork or beef"
-    },
-    {
-        "question": "Which egg is oval with a thin shell and visible larva inside?",
-        "options": ["Hymenolepis nana", "Ascaris lumbricoides", "Hookworm", "Tenia spp."],
-        "answer": "Hookworm"
-    },
-     
-]
+with st.form(key="quiz_form"):
+    q1 = st.radio(
+        "Question 1: Which parasite is transmitted by ingestion of undercooked freshwater fish?",
+        ["Hymenolepis nana", "Opisthorchis viverrini", "Hookworm", "Minute intestinal flukes"],
+    )
+    q2 = st.radio(
+        "question 2: Which parasite can auto-infect the host?",
+        ["Hymenolepis nana", "Ascaris lumbricoides", "Tenia spp.", "Hookworm"],
+    )
+    q3 = st.radio(
+         "question 3: Which of the following is the infective stage of Hymenolepis diminuta",
+         ["procercoid", "plerocercoid","egg", "cysticercoid"],
+    )
+    q4 = st.radio(
+        "question 4: What helps to differentiate Hymenolepis nana eggs from Hymenolepis diminuta eggs?",
+        ["Shell color", "Egg size", "Presence of polar filaments", "Presence of operculum"],
+    )
+    q5 = st.radio(
+        "question 5: Which parasite egg is the smallest among the flukes listed below?",
+        ["Fasciola hepatica", "Opisthorchis viverrini", " Minute intestinal flukes", " Paragonimus westermani"],
+    )
+    q6 = st.radio(
+        "question 6: The following helminth images are (high dry power, 400x)?",
+        ["Trichuris trichiura","Taenia sp.","Trichinella spiralis","Paragonimus sp."],
+    )
+    q7 = st.radio(
+        ""
+    )
+    
+    submit_button = st.form_submit_button(label="Submit Answere")
 
-
+    if submit_button:
+        score = 0
+        if q1 == "Opisthorchis viverrini":
+            score += 1
+        if q2 == "Hymenolepis nana":
+            score += 1
+        if q3 ==  "cysticercoid":
+            score += 1
+        if q4 ==  "Presence of polar filaments":
+            score += 1
+        if q5 ==  "Minute intestinal flukes":
+            score += 1
+        if q6 == "Trichuris trichiura":
+            score += 1
 
 def quiz_page():
     st.title("Parasite Egg Morphology and Transmission Quiz 🦠")
