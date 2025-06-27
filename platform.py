@@ -260,6 +260,10 @@ def parasite_detail_page():
 
 #--------------------------------------------------------------------------------------------------------
 
+def ai_detector_page():
+    st.write("This is the ai detector")
+    
+
 import streamlit as st
 
 def quiz_page():
