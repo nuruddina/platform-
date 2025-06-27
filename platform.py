@@ -12,8 +12,8 @@ with col1:
     st.subheader("parasited image")
     
     
-    img_1 = Image.open("/TT_0660-2.tif")
-    img_2 = Image.open("/Users/nuruddina/Desktop/mushroom/components/components/TT_.png")
+    img_1 = Image.open("sample image/TT_0660-2.tif")
+    img_2 = Image.open("sample image/TT_.png")
 
     st.image(img_1, caption="Input image", use_container_width=True)
     st.image(img_2, caption="Detection image", use_container_width=True)
@@ -21,8 +21,8 @@ with col1:
 with col2:
     st.subheader("Parasited image")
 
-    img_3 = Image.open("/Users/nuruddina/Desktop/mushroom/components/components/TT_0661.tif")
-    img_4 = Image.open("/Users/nuruddina/Desktop/mushroom/components/components/TT_2.png")
+    img_3 = Image.open("")
+    img_4 = Image.open("")
 
     st.image(img_3, caption="Input image", use_container_width=True)
     st.image(img_4, caption="Detection image", use_container_width=True)
