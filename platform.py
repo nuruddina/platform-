@@ -343,11 +343,7 @@ quiz_questions = [
         "options": ["Hymenolepis nana", "Ascaris lumbricoides", "Hookworm", "Tenia spp."],
         "answer": "Hookworm"
     },
-    {   
-        "question": "Which of the following is the infective stage of Hymenolepis diminuta"
-        "options": ["procercoid", "plerocercoid","egg", "cysticercoid"],
-        "answer": "cysticercoid"
-    }
+     
 ]
 
 
