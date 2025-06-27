@@ -261,7 +261,7 @@ def parasite_detail_page():
 #--------------------------------------------------------------------------------------------------------
 
 def ai_detector_page():
-    st.write("This is the ai detector")
+    st.title("AI DETECTOR")
     
 
 import streamlit as st
