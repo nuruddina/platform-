@@ -332,16 +332,26 @@ def quiz_page():
         )
         q16 = st.radio(
             "Question 16:  What is the common name of Taenia solium?",
-            ["beef tapeworm", "pork tapeworm", "dwarf tapeworm", "rat tapeworm",]
+            ["beef tapeworm", "pork tapeworm", "dwarf tapeworm", "rat tapeworm"],
         )
-        
-            
-            
-            
-            
-
-      
-        submit_button = st.form_submit_button(label="Submit Answers")
+        q17 = st.radio(
+            "Question 17: Which liver fluke species is most commonly found in the northeastern region of Thailand?",
+            ["Fasciola hepatica ","Clonorchis sinensis ","Opisthorchis viverrini","Paragonimus westermani"],
+        )
+        q18 = st.radio(
+            "Question 18: Which helminth can penetrate intact skin to infect humans?",
+            ["Trichuris trichiura", "Enterobius vermicularis","Necator americanus","Taenia solium"],
+        )
+        q19 = st.radio(
+            "Question 19: Which symptom is least likely in H. diminuta infection?",
+            ["Abdominal pain", "Urticaria ","Anemia","Diarrhea"],
+        )
+        q20 = st.radio(
+            "Question 20: What is the usual method of transmission of H. nana in children?",
+            ["Inhalation","Waterborne larvae", "Fecal-oral ingestion of eggs ","Transdermal penetration",]
+        )
+    
+    submit_button = st.form_submit_button(label="Submit Answers")
 
     if submit_button:
         score = 0
@@ -377,17 +387,21 @@ def quiz_page():
             score += 1
         if q16 == "pork tapeworm":
             score += 1
+        if q17 == "Opisthorchis viverrini" 
+            score += 1
+        if q18 == "Necator americanus"
+            score += 1
+        if q19 == "Anemia" 
+            score += 1
+        if q20 == "Fecal-oral ingestion of eggs " 
+            score += 1
+        
         
             
         st.success(f"Your score is {score} from 16")
 
 
         
-
-       
-
-
-      
 
 st.sidebar.markdown("<div class='sidebar-title'>Platform Navigation</div>", unsafe_allow_html=True)
     
