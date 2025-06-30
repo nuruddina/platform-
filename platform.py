@@ -116,6 +116,10 @@ def parasite_detail_page():
   """)
   st.subheader("Morphology")
   st.image("http://www.medical-labs.net/wp-content/uploads/2014/06/H.diminuta-OVA.jpg")
+  st.write("""
+  - **Egg:** The egg of Hymenolepis diminuta is generally described as round or slightly oval, measuring approximately 70-86 µm by 60-80 µm
+  - **Adult worm:** Adult Hymenolepis diminuta reach 20 to 60 cm, and up to 90 cm
+  """)
   st.subheader("Life cycle")
   st.markdown("""
   The life cycle of this parasite begins when eggs are passed in the feces of infected rodents or humans. Gravid proglottids, segments of the adult worm containing eggs, disintegrate within the host’s intestine, releasing eggs that are subsequently excreted in the stool. These eggs are then ingested by arthropod intermediate hosts, such as beetles or fleas, with Tribolium species (flour beetles) being particularly common carriers. Once inside the arthropod, the eggs hatch, and the resulting oncospheres penetrate the intestinal wall, developing into cysticercoid larvae within the insect’s body.
