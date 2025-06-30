@@ -144,6 +144,10 @@ def parasite_detail_page():
   """)
   st.subheader("Morphology")
   st.image("https://www.cdc.gov/dpdx/taeniasis/images/1/Taenia_egg.jpg?_=96649")
+  st.write("""
+  - **Egg:** The eggs measure 30-35 micrometers in diameter and are radially-striated
+  - **Adult worm:**Tapeworms (Taenia spp.) are flat, ribbon-like parasites that are white or pale yellow in color. They can grow up to 2–3 meters in length or even longer. The worm consists of a head (scolex) equipped with attachment organs such as suckers and hooks. The body (strobila) is made up of numerous segments called proglottids, each containing both male and female reproductive organs.
+  """)
   st.subheader("Life cycle")
   st.markdown("""
   The life cycle of Taenia tapeworms begins when eggs or gravid proglottids are passed in human feces, which can remain viable in the environment for days to months. These are ingested by cattle or pigs through contaminated vegetation—T. saginata infects cattle, while T. solium and T. asiatica infect pigs. Inside the animal, the eggs hatch into oncospheres that migrate to muscle tissue and develop into cysticerci, which can survive for years.Humans become infected by consuming raw or undercooked infected meat. The cysticerci then mature into adult tapeworms in the intestine, a process that takes about two months. The adult worms attach to the small intestine and begin producing proglottids, which are released in feces, each containing tens of thousands of eggs, thus continuing the cycle..
