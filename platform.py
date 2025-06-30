@@ -410,7 +410,7 @@ st.sidebar.markdown("<div class='sidebar-title'>Platform Navigation</div>", unsa
     
 pages = {
     "Home": home_page,
-    "Parasite egg Detail": parasite_detail_page,
+    "Parasite Egg Detail": parasite_detail_page,
     "Ai Detector": ai_detector_page,
     "Quiz": quiz_page,
     
