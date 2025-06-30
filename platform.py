@@ -89,7 +89,8 @@ def parasite_detail_page():
   st.subheader("Morphology")
   st.image("https://www.cdc.gov/dpdx/hymenolepiasis/images/2/H_nana_egg_wtmt2.jpg?_=01693")
   st.write("""
-  Egg is roughly spherical or ovoid, 30–40 μm in size.
+  - **Egg:** is roughly spherical or ovoid, 30–40 μm in size.
+  - **Adult Worm:** H. nana is the smallest intestinal cestode that infects man. It is 5–45 mm in length and less than 1 mm thick. The scolex has 4 suckers and a retractile rostellum with a single row of hooklets.
   """)
   st.subheader("Life cycle")
   st.markdown("""
