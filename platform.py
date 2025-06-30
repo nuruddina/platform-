@@ -198,6 +198,10 @@ def parasite_detail_page():
   """)
   st.subheader("Morphology")
   st.image("https://www.cdc.gov/dpdx/hookworm/images/1/Hookworm_2x2_B.jpg?_=02464")
+  st.write("""
+  - **Egg:** Hookworm eggs are typically oval-shaped and have a thin, smooth shell
+  - **Adult worm:** Adult hookworms are small, cylindrical, and slightly curved parasites with a hook-like appearance at the front end. They are whitish or grayish in color. Males measure about 8–11 mm long, while females are slightly longer, about 10–13 mm. 
+  """)
   st.subheader("Life cycle")
   st.markdown("""
   The life cycle begins when eggs are passed in the stool and hatch into rhabditiform larvae within 1–2 days under warm, moist, and shaded conditions. These larvae develop into infective filariform (L3) larvae within 5–10 days and can survive in soil for several weeks.
