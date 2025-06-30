@@ -171,6 +171,10 @@ def parasite_detail_page():
   """)
   st.subheader("Morphology")
   st.image("https://www.cdc.gov/dpdx/trichuriasis/images/1/Trichuris_trichiura_egg1.jpg?_=01207")
+  st.write("""
+  - **Egg:** Trichuris trichiura eggs are characterized by their barrel or lemon shape, thick shells, and distinctive polar plugs at each end.
+  - **Adult worm:** Adult Trichuris trichiura (whipworm) worms are characterized by their whip-like shape, with a long, thin anterior end and a thicker, posterior end
+  """)
   st.subheader("Life cycle")
   st.markdown("""
   The life cycle begins when unembryonated eggs are passed in human stool, having been released by adult female worms in the large intestine. In the soil, these eggs develop through several stages and become infective within 15 to 30 days. Humans acquire the infection by ingesting embryonated eggs through contaminated hands, food, or soil.
