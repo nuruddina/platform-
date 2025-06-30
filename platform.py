@@ -88,6 +88,9 @@ def parasite_detail_page():
   """)
   st.subheader("Morphology")
   st.image("https://www.cdc.gov/dpdx/hymenolepiasis/images/2/H_nana_egg_wtmt2.jpg?_=01693")
+  st.write("""
+  Egg is roughly spherical or ovoid, 30–40 μm in size.
+  """)
   st.subheader("Life cycle")
   st.markdown("""
   The life cycle of the parasite begins when eggs are passed in the stool of an infected individual. These eggs are immediately infective and can survive in the external environment for up to 10 days. Humans become infected primarily through the accidental ingestion of these eggs, often via contaminated food, water, or hands. Once ingested, the eggs hatch in the small intestine, releasing oncospheres. These oncospheres penetrate the intestinal villi and develop into cysticercoid larvae within the tissue.
