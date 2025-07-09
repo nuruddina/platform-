@@ -279,9 +279,23 @@ def parasite_detail_page():
   """)
 
 #--------------------------------------------------------------------------------------------------------
+import cv2
+import nampy as np
+from keras.models import load_model
+from keras.loses import mean_squared_error
+
 
 def ai_detector_page():
     st.title("AI DETECTOR")
+
+path = ""
+class_label = ["Artifact","As_fer","As_unfer","Hd","Hn","Hw","Mif","Ov","Tn","Tt,]
+
+class_config = {
+    1: (path + "tong.keras",(460,460)),
+    2: (path + "
+
+
     
 
 import streamlit as st
