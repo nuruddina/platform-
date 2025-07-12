@@ -280,7 +280,6 @@ def parasite_detail_page():
 
 #--------------------------------------------------------------------------------------------------------
 import cv2
-import nampy as np
 from keras.models import load_model
 from keras.loses import mean_squared_error
 
