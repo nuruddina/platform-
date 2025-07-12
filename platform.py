@@ -287,44 +287,7 @@ from keras.loses import mean_squared_error
 def ai_detector_page():
     st.title("AI DETECTOR") 
 
-    path = ""
-    class_label = ["Artifact", "As_fer", "As_unfer", "Hd", "Hn", "Hw", "Mif", "Ov", "Tn", "Tt,]
-
-    class_config = {
-        1: (path + "tong.keras", (460,460)),
-        2: (path + "Kumming2003CNN.keras", (200,200)),
-    }
-
-    def mse(y_true, y_pred):
-        return mean_squared_error(y_true, y_pred)
-
-    models = {idx: load_model(cfg[0], custom_objects={'mse': mse}) for idx, cfg in class_configs.items()}
-
-    def drawbox(img, label, a, b, c, d, color):
-        image = cv2.rectangle(img, (c,a), (d,b), color, 2)
-        image = cv2.putText(image, label, (c,a-10), cv2.FONT_HERSHEY_TRIPLEX, 0.8, color, 2)
-        return image
-
-    def compute_iou(box1, box2):
-        y1 = max(box1[0], box2[0])
-        y2 = min(box1[1], box2[1])
-        x1 = max(box1[2], box2[2])
-        x2 = min(box1[3], box2[3])
-        inter_w = max(0, x2 - x1)
-        inter_h = max(0, y2 - y1)
-        inter_area = inter_w * inter_h
-        box1_area = (box1[1] - box1[0]) * (box1[3] - box1[2])
-        box2_area = (box2[1] - box2[0]) * (box2[3] - box2[2])
-        union_are = box1_area + box2_area - inter_area
-        if union_area == 0:
-            return 0
-        return inter_area / union_area
-
-    def nms(dtection, iou_threshold):
-        nms_dets = []
-        for class_idx in set([d['class_idx'] for d in detection]):
-            class_dets = [d for d in detection if d['class_idx'] == class_idx]
-            class_dats = sorted(class_
+    
 
 
     
