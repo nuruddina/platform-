@@ -117,6 +117,7 @@ def parasite_detail_page():
   """)
   st.subheader("Morphology")
   st.image("http://www.medical-labs.net/wp-content/uploads/2014/06/H.diminuta-OVA.jpg")
+  st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Hymenolepis_diminuta_scolex.jpg/250px-Hymenolepis_diminuta_scolex.jpg")
   st.write("""
   - **Egg:** The egg of Hymenolepis diminuta is generally described as round or slightly oval, measuring approximately 70-86 µm by 60-80 µm
   - **Adult worm:** Adult Hymenolepis diminuta reach 20 to 60 cm, and up to 90 cm
@@ -145,6 +146,7 @@ def parasite_detail_page():
   """)
   st.subheader("Morphology")
   st.image("https://www.cdc.gov/dpdx/taeniasis/images/1/Taenia_egg.jpg?_=96649")
+  st.image("https://cdn.britannica.com/38/130238-004-5120BFB7/Taenia-solium-Scolex-hooks-scolex-wall-tapeworm.jpg")
   st.write("""
   - **Egg:** The eggs measure 30-35 micrometers in diameter and are radially-striated
   - **Adult worm:** Tapeworms (Taenia spp.) are flat, ribbon-like parasites that are white or pale yellow in color. They can grow up to 2–3 meters in length or even longer. The worm consists of a head (scolex) equipped with attachment organs such as suckers and hooks. The body (strobila) is made up of numerous segments called proglottids, each containing both male and female reproductive organs.
