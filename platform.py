@@ -174,6 +174,7 @@ def parasite_detail_page():
   """)
   st.subheader("Morphology")
   st.image("https://www.cdc.gov/dpdx/trichuriasis/images/1/Trichuris_trichiura_egg1.jpg?_=01207")
+  st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj5aWNZL9cDRKC9A839jdlKS6TyAL3930-XQ&s")
   st.write("""
   - **Egg:** Trichuris trichiura eggs are characterized by their barrel or lemon shape, thick shells, and distinctive polar plugs at each end.
   - **Adult worm:** Adult Trichuris trichiura (whipworm) worms are characterized by their whip-like shape, with a long, thin anterior end and a thicker, posterior end
@@ -201,6 +202,7 @@ def parasite_detail_page():
   """)
   st.subheader("Morphology")
   st.image("https://www.cdc.gov/dpdx/hookworm/images/1/Hookworm_2x2_B.jpg?_=02464")
+  st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxo5l3jcScXjPG45DCNd9CB-YUUi803OVKpw&s")
   st.write("""
   - **Egg:** Hookworm eggs are typically oval-shaped and have a thin, smooth shell
   - **Adult worm:** Adult hookworms are small, cylindrical, and slightly curved parasites with a hook-like appearance at the front end. They are whitish or grayish in color. Males measure about 8–11 mm long, while females are slightly longer, about 10–13 mm. 
@@ -229,6 +231,7 @@ def parasite_detail_page():
   """)
   st.subheader("Morphology")
   st.image("https://www.cdc.gov/dpdx/opisthorchiasis/images/1/O_viverrini_egg_wtmt_BAM3.jpg?_=00772")
+  st.image("https://www.cdc.gov/dpdx/opisthorchiasis/images/2/O_viverrini_Korea.jpg?_=00767")
   st.subheader("Life cycle")
   st.markdown("""
   The life cycle begins when fully developed eggs are passed in the feces of humans or animals. These eggs are ingested by freshwater snails, the first intermediate host, where they hatch into miracidia and develop through several stages—sporocysts, rediae, and then cercariae.
@@ -253,6 +256,7 @@ def parasite_detail_page():
   """)
   st.subheader("Morphology")
   st.image("https://www.troccap.com/wp-content/uploads/2018/09/intestinal-fluke-fig1.jpg")
+  st.image("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOMVBlfY8v04JFJRG-t1NvoCfgGAdC9nQuc9FNnfU8mNmb_cj44XyvuIZfOtty0dSZM3lUwTAUJdTbMA9J4ZsHsA3Uz2SEYfLJ65xrCMuqeCgrvnXCu_7EF-05VYvEvtk0qgFCprQBcks/s1600/FASCIOLOPSIS+BUSKI+ADULT+2.jpg")
   st.subheader("Life cycle")
   st.markdown("""
   The life cycle begins when embryonated eggs, containing fully developed miracidia, are passed in the feces of infected hosts. These eggs are ingested by specific snails such as Cerithidia or Pironella, where the miracidia hatch and develop through sporocyst, redia, and cercaria stages.
