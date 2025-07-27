@@ -227,6 +227,10 @@ def parasite_detail_page():
   st.subheader("Morphology")
   st.image("https://www.cdc.gov/dpdx/opisthorchiasis/images/1/O_viverrini_egg_wtmt_BAM3.jpg?_=00772")
   st.image("https://www.cdc.gov/dpdx/opisthorchiasis/images/2/O_viverrini_Korea.jpg?_=00767")
+  st.write("""
+  - **Egg:** The eggs of Opisthorchis viverrini, the Southeast Asian liver fluke, are characterized by their light yellowish-brown, ovoid shape, and a distinct operculum (a lid) at one end
+  - **Adult worm:** The adult Opisthorchis viverrini (liver fluke) is a small, flat, and transparent worm, typically measuring about 7 mm in length and 1.5 mm in width. It has a lancet-like shape and is dorso-ventrally flattened
+  """)
   st.subheader("Life cycle")
   st.markdown("""
   The life cycle begins when fully developed eggs are passed in the feces of humans or animals. These eggs are ingested by freshwater snails, the first intermediate host, where they hatch into miracidia and develop through several stages—sporocysts, rediae, and then cercariae.
