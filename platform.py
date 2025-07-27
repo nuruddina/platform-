@@ -57,10 +57,12 @@ def parasite_detail_page():
   - **Fertilized eggs:** The fertilized eggs are laid by females after inseminated by mating with a male. These are embryonated and develop into the infective eggs.
   - **Unfertilized Eggs:** he unfertilized eggs are laid by uninseminated female. Thes are non-embryonated and cannot become infective.
   """)
-  st.image('https://ars.els-cdn.com/content/image/3-s2.0-B9780128187319001075-f00107-14-9780128187319.jpg')
+  st.image('https://laboratorytests.org/wp-content/uploads/2019/03/Fertilized-and-Unfertilized-Eggs-of-Ascaris-Lumbricoides.jpg')
   st.image('https://learnzoology.wordpress.com/wp-content/uploads/2014/04/ascaris-male-female.jpg?w=640')
   st.subheader("Adult")
   st.write("""
+  - **Fertilized eggs:** The fertilized eggs are laid by females after inseminated by mating with a male. These are embryonated and develop into the infective eggs.
+  - **Unfertilized Eggs:** he unfertilized eggs are laid by uninseminated female. Thes are non-embryonated and cannot become infective.
   Adult worms are characterized by their large size, cylindrical, unsegmented bodies, and distinct sexual dimorphism. Females are typically 20-35 cm long, while males are slightly smaller, ranging from 15-30 cm. Both sexes have three "lips" at the anterior end of the body. 
   """)
   st.subheader("Life cycle")
