@@ -46,7 +46,7 @@ def parasite_detail_page():
 #----------------------------------------------------------------------------------------------------------------------------------------
   
 #ascaris---------------------------------------------------------------------------------------------------------------------------------
-  
+  st.header("Ascaris lumbricoides", anchor="ascaris-lumbricoides")
   st.header("1.Ascaris lumbricoides")
   st.subheader("Geographical Distribution")
   st.write("""
