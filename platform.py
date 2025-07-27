@@ -52,7 +52,6 @@ def parasite_detail_page():
   Ascaris lumbricoides, a common human roundworm, is found globally but is most prevalent in tropical and subtropical regions.
   """)
   st.subheader("Morphology")
-  st.image('https://www.cdc.gov/dpdx/ascariasis/images/3/Ascaris_egg_fert4_decort_400x.jpg?_=01133')
   st.image('https://laboratorytests.org/wp-content/uploads/2019/03/Fertilized-and-Unfertilized-Eggs-of-Ascaris-Lumbricoides.jpg')
   st.markdown("""
   - **Fertilized eggs:** The fertilized eggs are laid by females after inseminated by mating with a male. These are embryonated and develop into the infective eggs.
