@@ -256,6 +256,10 @@ def parasite_detail_page():
   st.subheader("Morphology")
   st.image("https://www.troccap.com/wp-content/uploads/2018/09/intestinal-fluke-fig1.jpg")
   st.image("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOMVBlfY8v04JFJRG-t1NvoCfgGAdC9nQuc9FNnfU8mNmb_cj44XyvuIZfOtty0dSZM3lUwTAUJdTbMA9J4ZsHsA3Uz2SEYfLJ65xrCMuqeCgrvnXCu_7EF-05VYvEvtk0qgFCprQBcks/s1600/FASCIOLOPSIS+BUSKI+ADULT+2.jpg")
+  st.write("""
+  - **Egg:** Minute intestinal fluke (MIF) eggs are small, oval-shaped eggs produced by several species of flukes that infect the small intestine. 
+  - **Adult worm:** Minute intestinal flukes are small parasitic flatworms, also known as trematodes, that inhabit the small intestine of humans and other mammals.
+  """)
   st.subheader("Life cycle")
   st.markdown("""
   The life cycle begins when embryonated eggs, containing fully developed miracidia, are passed in the feces of infected hosts. These eggs are ingested by specific snails such as Cerithidia or Pironella, where the miracidia hatch and develop through sporocyst, redia, and cercaria stages.
