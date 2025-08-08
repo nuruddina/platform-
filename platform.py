@@ -370,52 +370,6 @@ def ai_detector_page():
         except Exception as e:
             st.error(f"Error loading image: {e}")
 
-#================= เรียกใช้งานฟังก์ชัน ===================
-if __name__ == "__main__":
-    ai_detector_page()
-
-
-    
-
-
-    
-
-    
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
