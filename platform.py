@@ -292,6 +292,12 @@ def parasite_detail_page():
 
 #--------------------------------------------------------------------------------------------------------
 
+import os
+import cv2
+import numpy as np
+import tensorflow as tf
+import streamlit as st
+from PIL import Image
 
 def ai_detector_page():
     st.title("AI Detector")
